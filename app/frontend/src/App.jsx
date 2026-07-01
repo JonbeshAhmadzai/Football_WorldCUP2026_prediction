@@ -1372,6 +1372,10 @@ function App() {
           <div>
             <h1>World Cup 2026</h1>
             <p>Prediction Center</p>
+            <div className="creator-mark">
+              <span>Made by</span>
+              <strong>Jonbesh Ahmadzai</strong>
+            </div>
           </div>
         </div>
         <div className="control-stack">
