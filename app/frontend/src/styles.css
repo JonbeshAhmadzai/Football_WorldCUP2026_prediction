@@ -138,13 +138,10 @@ input {
   font-size: 13px;
 }
 
-.creator-mark {
+.creator-card {
   position: relative;
-  display: grid;
-  gap: 5px;
-  max-width: 100%;
   margin-top: 14px;
-  padding: 10px 12px;
+  padding: 12px;
   overflow: hidden;
   border: 1px solid rgba(255, 209, 102, 0.42);
   border-radius: 8px;
@@ -161,7 +158,7 @@ input {
   text-transform: uppercase;
 }
 
-.creator-mark::before {
+.creator-card::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -171,6 +168,13 @@ input {
   background-size: 160px 100%, 100% 10px;
   opacity: 0.5;
   pointer-events: none;
+}
+
+.creator-mark {
+  position: relative;
+  display: grid;
+  gap: 5px;
+  max-width: 100%;
 }
 
 .creator-mark span {
@@ -192,6 +196,16 @@ input {
   text-shadow:
     0 0 16px rgba(255, 209, 102, 0.42),
     0 0 26px rgba(66, 232, 255, 0.18);
+}
+
+.creator-card p {
+  position: relative;
+  margin: 10px 0 0;
+  color: #dbeafe;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
 }
 
 .control-stack {

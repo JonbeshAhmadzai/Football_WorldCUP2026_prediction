@@ -1408,15 +1408,18 @@ function App() {
             <p>Snapshot</p>
             <strong>{data.snapshot}</strong>
             <span>{data.selected_model.kind_label}</span>
-            <div className="creator-mark">
-              <span>Made by</span>
-              <strong>Jonbesh Ahmadzai</strong>
-            </div>
             {team !== "All teams" && (
               <button className="drawer-link" onClick={() => setDrawerTeam(team)}>Open team profile</button>
             )}
           </div>
         )}
+        <div className="creator-card">
+          <div className="creator-mark">
+            <span>Made by</span>
+            <strong>Jonbesh Ahmadzai</strong>
+          </div>
+          <p>If you bet on a game and win, share the profit :)</p>
+        </div>
       </aside>
 
       <main className={`${isBracketTab ? "main bracket-focus" : "main"} ${isLiveTab ? "live-focus" : ""} ${isPathTab ? "path-focus" : ""}`}>
