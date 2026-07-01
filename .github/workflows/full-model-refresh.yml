@@ -1,0 +1,77 @@
+name: Full Model Refresh
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: full-model-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-models:
+    name: Scrape, train, simulate, build UI, and commit outputs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: app/frontend/package-lock.json
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install frontend dependencies
+        working-directory: app/frontend
+        run: npm ci
+
+      - name: Run full project pipeline
+        run: make pipeline PYTHON=python
+
+      - name: Commit refreshed model and dashboard outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            app/frontend/dist \
+            data/database/football_prediction.db \
+            data/raw/espn_worldcup_scoreboard.json \
+            data/processed/matches_augmented.csv \
+            data/processed/training_dataset_augmented.csv \
+            data/processed/worldcup_2026_live_results.csv \
+            reports/data_quality_latest.json \
+            src/modeling/artifacts/historical_live \
+            src/modeling/artifacts/live_result \
+            src/modeling/score_artifacts/exact_score \
+            src/modeling/simulation_runs \
+            src/modeling/training_features_augmented.csv \
+            src/modeling/training_features_exact_score_augmented.csv \
+            src/modeling/training_features_live_only.csv \
+            src/modeling/training_features_live_result.csv
+
+          if git diff --cached --quiet; then
+            echo "No model or dashboard changes to commit."
+          else
+            git commit -m "Refresh World Cup models and dashboard outputs"
+            git pull --rebase
+            git push
+          fi

@@ -7,6 +7,10 @@ on:
     branches:
       - jon-clean
       - main
+    paths-ignore:
+      - "data/raw/espn_worldcup_scoreboard.json"
+      - "data/processed/worldcup_2026_live_results.csv"
+      - "reports/data_quality_latest.json"
 
 jobs:
   test:

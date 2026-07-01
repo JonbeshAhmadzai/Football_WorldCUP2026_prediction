@@ -8,5 +8,3 @@ services:
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: DATABASE_URL
-        sync: false

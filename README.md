@@ -293,12 +293,12 @@ Recommended Render setup:
 2. In Render, create a new **Blueprint** from the repository.
 3. Select the deployment branch.
 4. Render will use `render.yaml` to create one free Dockerized FastAPI + React web service.
-5. Add `DATABASE_URL` as an environment variable using a free external PostgreSQL database URL from Neon or Supabase.
+5. Enable auto-deploy for the selected branch.
 6. The health check path is `/api/health`.
 
 The app will be served by Render on its generated public URL.
 
-This free setup does not create a paid Render database or paid Render cron job. Live ESPN refreshes run through the app while the dashboard is open, and finished/live match rows persist in the external PostgreSQL database.
+This free setup does not create a paid Render database or paid Render cron job. Live ESPN snapshots are refreshed by GitHub Actions and committed back to the repository, then Render auto-deploys the latest snapshot.
 
 ### Deploy with Docker Locally
 
@@ -315,58 +315,50 @@ http://127.0.0.1:8501
 
 ## Live Updates in Free Deployment
 
-GitHub is mainly for source code. Live match updates should not be committed to GitHub every few minutes.
+GitHub Actions is used as the free scheduler for this deployment.
 
-The free Render + external PostgreSQL flow is:
+The free live-data flow is:
 
 ```text
-React dashboard polling
-    -> FastAPI /api/refresh-live
+GitHub Actions every 30 minutes
     -> ESPN scoreboard scraper
-    -> free external PostgreSQL through DATABASE_URL
-    -> FastAPI dashboard API
+    -> updated CSV/JSON snapshot
+    -> commit to GitHub
+    -> Render auto-deploys latest commit
+    -> React dashboard reads latest bundled snapshot
 ```
 
-When the dashboard is open, it polls ESPN refreshes automatically. The scraper writes live rows into PostgreSQL when `DATABASE_URL` is configured, so the deployed app is no longer stuck on the last committed CSV snapshot.
+The scheduled workflow is:
 
-### Free PostgreSQL Setup
+```text
+.github/workflows/live-data-refresh.yml
+```
 
-Use either Neon or Supabase free PostgreSQL.
+It commits only:
 
-Neon setup:
+- `data/raw/espn_worldcup_scoreboard.json`
+- `data/processed/worldcup_2026_live_results.csv`
+- `reports/data_quality_latest.json`
 
-1. Create a free Neon project.
-2. Copy the pooled or direct PostgreSQL connection string.
-3. Make sure the URL includes SSL, usually `?sslmode=require`.
-4. In Render, open `worldcup-2026-prediction-app`.
-5. Go to **Environment**.
-6. Add `DATABASE_URL`.
-7. Paste the Neon connection string.
-8. Save and redeploy.
+The manual full refresh workflow is:
 
-Supabase setup:
+```text
+.github/workflows/full-model-refresh.yml
+```
 
-1. Create a free Supabase project.
-2. Go to **Project Settings** > **Database**.
-3. Copy the PostgreSQL connection string.
-4. Replace the password placeholder with your actual database password.
-5. Add it to Render as `DATABASE_URL`.
-6. Save and redeploy.
+Use it from the GitHub Actions tab when you want to retrain models, rerun simulations, and rebuild the dashboard outputs.
 
-After redeploy, open the dashboard. The first ESPN refresh will automatically create the required PostgreSQL tables:
-
-- `worldcup_live_results`
-- `espn_scoreboard_snapshots`
-
-Free deployment limitations:
+Important free deployment notes:
 
 - Render free web services may sleep when inactive.
-- Live refreshes happen while the app is awake/open, not as a true always-on background job.
-- Model retraining is still a heavier offline/pipeline task.
+- GitHub scheduled workflows run only on the repository default branch.
+- If `jon-clean` is your deployment branch, set it as the GitHub default branch or merge it into the default branch.
+- Render must have auto-deploy enabled for the branch.
+- Model retraining is manual through the full model refresh workflow.
 
 ### Optional Production Upgrade
 
-If you later want a fully production-style live system, add a scheduled worker/cron service.
+If you later want a fully production-style live system, add a hosted PostgreSQL database and a scheduled worker/cron service.
 
 The upgraded flow is:
 
@@ -377,7 +369,7 @@ scheduled scraper
     -> React dashboard
 ```
 
-The code already supports the PostgreSQL part through `DATABASE_URL`. A scheduled worker would make refreshes happen even when nobody has the dashboard open.
+The code already supports the PostgreSQL part through optional `DATABASE_URL`, but the default free deployment uses GitHub Actions snapshots.
 
 ## Testing and Quality Checks
 
