@@ -17,7 +17,6 @@ services:
     name: worldcup-2026-live-scraper
     runtime: docker
     dockerfilePath: ./Dockerfile
-    plan: free
     schedule: "*/5 * * * *"
     dockerCommand: "python src/scraping/scrape_latest_results.py"
     envVars:
