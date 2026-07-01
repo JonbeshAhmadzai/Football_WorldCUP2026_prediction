@@ -1372,10 +1372,6 @@ function App() {
           <div>
             <h1>World Cup 2026</h1>
             <p>Prediction Center</p>
-            <div className="creator-mark">
-              <span>Made by</span>
-              <strong>Jonbesh Ahmadzai</strong>
-            </div>
           </div>
         </div>
         <div className="control-stack">
@@ -1412,6 +1408,10 @@ function App() {
             <p>Snapshot</p>
             <strong>{data.snapshot}</strong>
             <span>{data.selected_model.kind_label}</span>
+            <div className="creator-mark">
+              <span>Made by</span>
+              <strong>Jonbesh Ahmadzai</strong>
+            </div>
             {team !== "All teams" && (
               <button className="drawer-link" onClick={() => setDrawerTeam(team)}>Open team profile</button>
             )}
