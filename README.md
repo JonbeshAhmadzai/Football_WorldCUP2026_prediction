@@ -290,12 +290,17 @@ Dockerfile
 Recommended Render setup:
 
 1. Push this repository to GitHub.
-2. In Render, create a new **Blueprint** or **Web Service** from the repository.
-3. Use the Docker environment.
-4. Render will use `render.yaml` and `Dockerfile`.
+2. In Render, create a new **Blueprint** from the repository.
+3. Select the deployment branch.
+4. Render will use `render.yaml` to create:
+   - the Dockerized FastAPI + React web service
+   - a PostgreSQL database
+   - a scheduled cron scraper
 5. The health check path is `/api/health`.
 
 The app will be served by Render on its generated public URL.
+
+The deployed app reads live match state from PostgreSQL through `DATABASE_URL`. If `DATABASE_URL` is not configured, the app falls back to local CSV/JSON files.
 
 ### Deploy with Docker Locally
 
@@ -310,33 +315,58 @@ Open:
 http://127.0.0.1:8501
 ```
 
-## Live Updates and GitHub Automation
+## Live Updates in Deployment
 
-GitHub is mainly for source code and versioned project outputs. It is not a real-time database.
+GitHub is mainly for source code. Live match updates are handled by deployment infrastructure, not by committing new data to GitHub.
 
-For this project, live updating is handled with a scheduled GitHub Actions workflow:
+The production-style live flow is:
 
 ```text
-.github/workflows/live-pipeline.yml
+Render Cron Job
+    -> ESPN scoreboard scraper
+    -> PostgreSQL live tables
+    -> FastAPI dashboard API
+    -> React dashboard polling
 ```
 
-It runs hourly and also supports manual runs from the GitHub Actions tab.
+The Render blueprint creates a cron service named:
 
-The workflow:
+```text
+worldcup-2026-live-scraper
+```
 
-1. Scrapes the latest ESPN World Cup data.
-2. Validates the refreshed data.
-3. Rebuilds the augmented historical + live dataset.
-4. Retrains the historical + live model.
-5. Retrains the live result model.
-6. Retrains the exact score model.
-7. Runs tournament simulations.
-8. Rebuilds the React frontend.
-9. Commits updated data, model artifacts, simulations, reports, and dashboard build files back to GitHub if anything changed.
+It runs every 5 minutes and executes:
 
-If the deployed hosting provider is connected to this GitHub branch with auto-deploy enabled, every automated GitHub commit can trigger a fresh deployment. That means the hosted dashboard will keep receiving the latest scraped data and refreshed model outputs.
+```bash
+python src/scraping/scrape_latest_results.py
+```
 
-For a larger production system, the better architecture would be a hosted database or object storage bucket instead of committing live data back to GitHub. For this educational project, GitHub Actions gives a simple and visible automation trail.
+When `DATABASE_URL` exists, the scraper writes:
+
+- cleaned live match rows to `worldcup_live_results`
+- raw ESPN snapshots to `espn_scoreboard_snapshots`
+
+The FastAPI app reads `worldcup_live_results` first and falls back to `data/processed/worldcup_2026_live_results.csv` for local development.
+
+This avoids GitHub spam commits and avoids redeploying the whole app just because a live score changed.
+
+### Model Refresh in Deployment
+
+Live score display and dashboard match status update through PostgreSQL without redeploying.
+
+Model retraining is heavier than live-score refresh. The current deployment keeps model artifacts inside the Docker image and project files. For a fully production-grade retraining setup, use one of these:
+
+- a persistent disk shared by the training worker and web service
+- object storage for model artifacts
+- a model registry service
+
+For this project, the clean practical setup is:
+
+- cron scraper every 5 minutes for live match updates
+- model retraining locally or through Airflow when new final results are available
+- redeploy after model artifacts change
+
+This keeps the deployed dashboard live while avoiding unsafe automatic model overwrites in an ephemeral container.
 
 ## Testing and Quality Checks
 
@@ -384,9 +414,10 @@ The project includes `.env.example` for optional API tokens:
 ```text
 FOOTBALL_DATA_API_TOKEN=replace_with_your_token
 SPORTMONKS_API_TOKEN=replace_with_your_token
+DATABASE_URL=postgresql://user:password@host:5432/database
 ```
 
-The current ESPN scraping workflow does not require these tokens.
+The current ESPN scraping workflow does not require API tokens. `DATABASE_URL` is optional locally, but recommended in deployment.
 
 Never commit `.env`. It is intentionally ignored by Git.
 

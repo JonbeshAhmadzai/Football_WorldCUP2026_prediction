@@ -14,6 +14,7 @@ from typing import Any
 import pandas as pd
 
 from app.backend.quality import data_quality_report
+from src.storage import live_store
 
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -134,6 +135,13 @@ def records(df: pd.DataFrame, limit: int | None = None) -> list[dict[str, Any]]:
 
 
 def read_csv(path: Path, **kwargs) -> pd.DataFrame:
+    if path.name == "worldcup_2026_live_results.csv" and live_store.is_enabled():
+        try:
+            db_results = live_store.load_live_results()
+            if not db_results.empty:
+                return db_results
+        except Exception:
+            pass
     if not path.exists():
         return pd.DataFrame()
     return pd.read_csv(path, **kwargs)
@@ -194,7 +202,11 @@ def refresh_live_snapshot(force: bool = False) -> dict[str, Any]:
                 live_count = int(refreshed["is_live"].sum()) if "is_live" in refreshed else 0
                 finished_count = int(refreshed["is_finished"].sum()) if "is_finished" in refreshed else 0
                 scheduled_count = int(refreshed["is_scheduled"].sum()) if "is_scheduled" in refreshed else 0
-                message = f"ESPN refreshed: {live_count} live, {finished_count} finished, {scheduled_count} scheduled."
+                storage = "PostgreSQL" if live_store.is_enabled() else "local CSV"
+                message = (
+                    f"ESPN refreshed in {storage}: "
+                    f"{live_count} live, {finished_count} finished, {scheduled_count} scheduled."
+                )
             else:
                 message = "ESPN refresh completed."
         else:

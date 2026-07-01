@@ -7,6 +7,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from src.storage import live_store
+
 
 BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 START_DATE = "20260611"
@@ -195,6 +197,9 @@ def save_outputs(payloads, cleaned):
     }
     RAW_OUTPUT_PATH.write_text(json.dumps(raw_payload, indent=2))
     cleaned.to_csv(PROCESSED_OUTPUT_PATH, index=False)
+    if live_store.is_enabled():
+        live_store.save_scoreboard_snapshot(raw_payload)
+        live_store.save_live_results(cleaned)
 
 
 def local_fixture_teams(fixtures):
@@ -208,6 +213,8 @@ def local_fixture_teams(fixtures):
 def print_summary(fixtures, cleaned):
     print(f"Saved raw JSON: {RAW_OUTPUT_PATH}")
     print(f"Saved cleaned CSV: {PROCESSED_OUTPUT_PATH}")
+    if live_store.is_enabled():
+        print("Synced live results to PostgreSQL via DATABASE_URL.")
     print(f"Rows: {len(cleaned)}")
 
     if cleaned.empty:

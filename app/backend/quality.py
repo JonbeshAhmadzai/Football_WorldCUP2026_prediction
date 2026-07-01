@@ -6,6 +6,8 @@ from typing import Any
 
 import pandas as pd
 
+from src.storage import live_store
+
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = BASE_DIR / "data" / "processed"
@@ -35,6 +37,13 @@ def relative_path(path: Path) -> str:
 
 
 def read_csv(path: Path) -> pd.DataFrame:
+    if path.name == "worldcup_2026_live_results.csv" and live_store.is_enabled():
+        try:
+            db_results = live_store.load_live_results()
+            if not db_results.empty:
+                return db_results
+        except Exception:
+            pass
     if not path.exists():
         return pd.DataFrame()
     return pd.read_csv(path)
@@ -212,6 +221,10 @@ def data_quality_report() -> dict[str, Any]:
             "live_results": file_info(DATA_DIR / "worldcup_2026_live_results.csv"),
             "historical_live_features": file_info(MODEL_DIR / "training_features_augmented.csv"),
             "live_result_features": file_info(MODEL_DIR / "training_features_live_result.csv"),
+        },
+        "storage": {
+            "live_results_source": "postgresql" if live_store.is_enabled() else "csv",
+            "database_configured": live_store.is_enabled(),
         },
         "sections": sections,
     }
