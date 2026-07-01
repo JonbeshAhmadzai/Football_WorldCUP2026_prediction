@@ -139,40 +139,59 @@ input {
 }
 
 .creator-mark {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
+  position: relative;
+  display: grid;
+  gap: 5px;
   max-width: 100%;
-  margin-top: 10px;
-  padding: 6px 8px;
-  border: 1px solid rgba(255, 209, 102, 0.34);
+  margin-top: 12px;
+  padding: 10px 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 209, 102, 0.42);
   border-radius: 8px;
   background:
-    linear-gradient(135deg, rgba(255, 209, 102, 0.16), rgba(66, 232, 255, 0.08)),
+    linear-gradient(115deg, rgba(255, 209, 102, 0.18), transparent 42%),
+    radial-gradient(circle at 96% 22%, rgba(66, 232, 255, 0.24), transparent 36%),
     rgba(255, 255, 255, 0.06);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    0 10px 26px rgba(0, 0, 0, 0.16);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 14px 34px rgba(0, 0, 0, 0.2),
+    0 0 34px rgba(255, 209, 102, 0.1);
   color: #fff7d6;
   line-height: 1;
   text-transform: uppercase;
 }
 
+.creator-mark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent),
+    linear-gradient(rgba(66, 232, 255, 0.08) 1px, transparent 1px);
+  background-size: 160px 100%, 100% 10px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .creator-mark span {
+  position: relative;
   color: #a9bed9;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.14em;
   white-space: nowrap;
 }
 
 .creator-mark strong {
-  color: #ffd166;
-  font-size: 10px;
+  position: relative;
+  color: #ffe08a;
+  font-size: 15px;
   font-weight: 900;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   white-space: nowrap;
-  text-shadow: 0 0 18px rgba(255, 209, 102, 0.32);
+  text-shadow:
+    0 0 16px rgba(255, 209, 102, 0.42),
+    0 0 26px rgba(66, 232, 255, 0.18);
 }
 
 .control-stack {
