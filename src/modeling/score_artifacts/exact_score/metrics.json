@@ -1,0 +1,54 @@
+{
+  "run_id": "exact_score",
+  "last_trained_at": "20260701_184337",
+  "artifact_label": "exact_score_augmented",
+  "features_path": "/home/becode/Desktop/BeCode/becode_projects/Football-Match-Prediction-Project-FIFA-World-Cup-2026/src/modeling/training_features_exact_score_augmented.csv",
+  "training_rows": 6119,
+  "train_rows": 4616,
+  "test_rows": 1503,
+  "temporal_split_year": 2018,
+  "max_score_grid": 6,
+  "eval_metrics": {
+    "home_goal_mae": 1.0170992612838745,
+    "away_goal_mae": 0.8148366212844849,
+    "rounded_exact_score_accuracy": 0.10246174318030606,
+    "top3_scoreline_accuracy": 0.38323353293413176
+  },
+  "in_sample_metrics": {
+    "home_goal_mae": 0.8948022127151489,
+    "away_goal_mae": 0.7580543160438538,
+    "rounded_exact_score_accuracy": 0.1289426376858964,
+    "top3_scoreline_accuracy": 0.4072560875960124
+  },
+  "feature_columns": [
+    "home_elo",
+    "away_elo",
+    "elo_diff",
+    "home_recent_wins",
+    "home_recent_draws",
+    "home_recent_losses",
+    "home_recent_goals_for",
+    "home_recent_goals_against",
+    "home_recent_goal_diff",
+    "away_recent_wins",
+    "away_recent_draws",
+    "away_recent_losses",
+    "away_recent_goals_for",
+    "away_recent_goals_against",
+    "away_recent_goal_diff",
+    "recent_win_diff",
+    "recent_goal_diff_diff",
+    "neutral"
+  ],
+  "xgb_goal_params": {
+    "objective": "count:poisson",
+    "n_estimators": 350,
+    "max_depth": 3,
+    "learning_rate": 0.04,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "eval_metric": "poisson-nloglik",
+    "random_state": 42
+  },
+  "note": "Goal models estimate expected goals; scoreline probabilities use an independent Poisson grid."
+}

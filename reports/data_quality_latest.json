@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-07-01T19:35:19+00:00",
+  "status": "pass",
+  "summary": {
+    "checks": 28,
+    "passed": 28,
+    "warnings": 0,
+    "errors": 0
+  },
+  "files": {
+    "live_results": {
+      "path": "data/processed/worldcup_2026_live_results.csv",
+      "exists": true,
+      "size_bytes": 26080,
+      "modified_at": "2026-07-01T19:35:08+00:00"
+    },
+    "historical_live_features": {
+      "path": "src/modeling/training_features_augmented.csv",
+      "exists": true,
+      "size_bytes": 470505,
+      "modified_at": "2026-07-01T16:43:14+00:00"
+    },
+    "live_result_features": {
+      "path": "src/modeling/training_features_live_result.csv",
+      "exists": true,
+      "size_bytes": 7679,
+      "modified_at": "2026-07-01T16:44:01+00:00"
+    }
+  },
+  "sections": {
+    "live_results": [
+      {
+        "name": "live_results_present",
+        "passed": true,
+        "severity": "error",
+        "detail": "104 ESPN rows loaded."
+      },
+      {
+        "name": "live_results_schema",
+        "passed": true,
+        "severity": "error",
+        "detail": "Required columns missing: []"
+      },
+      {
+        "name": "no_duplicate_matches",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 duplicate rows by date/home/away."
+      },
+      {
+        "name": "no_negative_scores",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 rows have negative scores."
+      },
+      {
+        "name": "single_match_status",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 rows are not exactly one of finished/live/scheduled."
+      },
+      {
+        "name": "scheduled_matches_unscored",
+        "passed": true,
+        "severity": "warning",
+        "detail": "0 scheduled rows already have a score."
+      },
+      {
+        "name": "placeholder_teams_only_expected",
+        "passed": true,
+        "severity": "warning",
+        "detail": "24 placeholder team references found."
+      }
+    ],
+    "historical_live_features": [
+      {
+        "name": "historical_live_features_present",
+        "passed": true,
+        "severity": "error",
+        "detail": "6119 feature rows loaded."
+      },
+      {
+        "name": "historical_live_features_schema",
+        "passed": true,
+        "severity": "error",
+        "detail": "Required columns missing: []"
+      },
+      {
+        "name": "historical_live_features_required_values",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 rows have missing required values."
+      },
+      {
+        "name": "historical_live_features_target_values",
+        "passed": true,
+        "severity": "error",
+        "detail": "Unexpected target labels: []."
+      },
+      {
+        "name": "historical_live_features_neutral_binary",
+        "passed": true,
+        "severity": "error",
+        "detail": "Neutral column values: [0, 1]."
+      }
+    ],
+    "live_result_features": [
+      {
+        "name": "live_result_features_present",
+        "passed": true,
+        "severity": "error",
+        "detail": "79 feature rows loaded."
+      },
+      {
+        "name": "live_result_features_schema",
+        "passed": true,
+        "severity": "error",
+        "detail": "Required columns missing: []"
+      },
+      {
+        "name": "live_result_features_required_values",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 rows have missing required values."
+      },
+      {
+        "name": "live_result_features_target_values",
+        "passed": true,
+        "severity": "error",
+        "detail": "Unexpected target labels: []."
+      },
+      {
+        "name": "live_result_features_neutral_binary",
+        "passed": true,
+        "severity": "error",
+        "detail": "Neutral column values: [0, 1]."
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "artifact_exists:src/modeling/artifacts/historical_live/model.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/historical_live/model.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/artifacts/historical_live/label_encoder.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/historical_live/label_encoder.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/artifacts/historical_live/metrics.json",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/historical_live/metrics.json exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/artifacts/live_result/model.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/live_result/model.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/artifacts/live_result/label_encoder.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/live_result/label_encoder.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/artifacts/live_result/metrics.json",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/artifacts/live_result/metrics.json exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/score_artifacts/exact_score/home_goal_model.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/score_artifacts/exact_score/home_goal_model.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/score_artifacts/exact_score/away_goal_model.pkl",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/score_artifacts/exact_score/away_goal_model.pkl exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/score_artifacts/exact_score/metrics.json",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/score_artifacts/exact_score/metrics.json exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/simulation_runs/simulation_results_historical_live.csv",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/simulation_runs/simulation_results_historical_live.csv exists=True."
+      },
+      {
+        "name": "artifact_exists:src/modeling/simulation_runs/simulation_results_live_result.csv",
+        "passed": true,
+        "severity": "error",
+        "detail": "src/modeling/simulation_runs/simulation_results_live_result.csv exists=True."
+      }
+    ]
+  }
+}

@@ -32,16 +32,24 @@ default_args = {
 with DAG(
     dag_id="worldcup_2026_augmented_pipeline",
     default_args=default_args,
-    description="Scrape ESPN results and train/simulate a separate augmented model.",
+    description="Scrape ESPN results and overwrite current historical-live and live-result models.",
     start_date=datetime(2026, 6, 11),
     schedule="@hourly",
     catchup=False,
-    tags=["world-cup", "football", "augmented-model"],
+    tags=["world-cup", "football", "historical-live-model", "live-result-model"],
 ) as dag:
     scrape_latest_results = BashOperator(
         task_id="scrape_latest_results",
         bash_command=repo_command(
             f"{Q_PYTHON_BIN} src/scraping/scrape_latest_results.py"
+        ),
+    )
+
+    validate_data_after_scrape = BashOperator(
+        task_id="validate_data_after_scrape",
+        bash_command=repo_command(
+            f"{Q_PYTHON_BIN} scripts/validate_project_data.py "
+            "--output reports/data_quality_latest.json"
         ),
     )
 
@@ -76,28 +84,58 @@ with DAG(
         bash_command=repo_command(
             f"{Q_PYTHON_BIN} src/modeling/eval_model_training.py "
             "--features-path src/modeling/training_features_augmented.csv "
-            "--artifact-label augmented"
+            "--artifact-label historical_live "
+            "--overwrite-artifact"
+        ),
+    )
+
+    train_exact_score_model = BashOperator(
+        task_id="train_exact_score_model",
+        bash_command=repo_command(
+            f"{Q_PYTHON_BIN} src/modeling/train_exact_score_model.py"
         ),
     )
 
     run_augmented_simulation = BashOperator(
         task_id="run_augmented_simulation",
         bash_command=repo_command(
-            'ARTIFACT_DIR="$(ls -td src/modeling/artifacts/augmented_* | head -1)" '
-            '&& test -n "$ARTIFACT_DIR" '
-            f"&& {Q_PYTHON_BIN} src/modeling/world_cup_montecarlo_simulation.py "
-            '--model-path "$ARTIFACT_DIR/model.pkl" '
-            '--encoder-path "$ARTIFACT_DIR/label_encoder.pkl" '
-            "--artifact-label augmented"
+            f"{Q_PYTHON_BIN} src/modeling/world_cup_montecarlo_simulation.py "
+            "--model-path src/modeling/artifacts/historical_live/model.pkl "
+            "--encoder-path src/modeling/artifacts/historical_live/label_encoder.pkl "
+            "--artifact-label historical_live "
+            "--overwrite-output"
         ),
     )
 
+    train_live_result_model = BashOperator(
+        task_id="train_live_result_model",
+        bash_command=repo_command(
+            f"{Q_PYTHON_BIN} src/modeling/train_live_only_model.py"
+        ),
+    )
+
+    run_live_result_simulation = BashOperator(
+        task_id="run_live_result_simulation",
+        bash_command=repo_command(
+            f"{Q_PYTHON_BIN} src/modeling/world_cup_montecarlo_simulation.py "
+            "--model-path src/modeling/artifacts/live_result/model.pkl "
+            "--encoder-path src/modeling/artifacts/live_result/label_encoder.pkl "
+            "--artifact-label live_result "
+            "--overwrite-output"
+        ),
+    )
+
+    scrape_latest_results >> validate_data_after_scrape >> build_augmented_matches
+
     (
-        scrape_latest_results
-        >> build_augmented_matches
+        build_augmented_matches
         >> build_training_dataset_augmented
         >> load_database
         >> build_features_augmented
         >> train_augmented_model
         >> run_augmented_simulation
     )
+
+    build_features_augmented >> train_exact_score_model
+
+    validate_data_after_scrape >> train_live_result_model >> run_live_result_simulation

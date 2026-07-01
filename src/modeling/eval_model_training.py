@@ -111,9 +111,9 @@ def save_training_artifacts(model, le, metrics, run_id, update_latest=False):
         pickle.dump(le, f)
     versioned_metrics_path.write_text(json.dumps(metrics, indent=2))
 
-    print(f"Saved versioned model → {versioned_model_path}")
-    print(f"Saved versioned encoder → {versioned_encoder_path}")
-    print(f"Saved versioned metrics → {versioned_metrics_path}")
+    print(f"Saved model → {versioned_model_path}")
+    print(f"Saved encoder → {versioned_encoder_path}")
+    print(f"Saved metrics → {versioned_metrics_path}")
 
     if update_latest:
         with open(MODEL_PATH, "wb") as f:
@@ -144,13 +144,18 @@ def parse_args():
         action="store_true",
         help="Also update src/modeling/model.pkl and label_encoder.pkl.",
     )
+    parser.add_argument(
+        "--overwrite-artifact",
+        action="store_true",
+        help="Write to src/modeling/artifacts/<artifact-label> instead of a timestamped folder.",
+    )
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_id = f"{args.artifact_label}_{timestamp}"
+    run_id = args.artifact_label if args.overwrite_artifact else f"{args.artifact_label}_{timestamp}"
     df, le = load_data(args.features_path)
 
     train_df, test_df = temporal_split(df)
@@ -172,6 +177,7 @@ def main():
 
     metrics = {
         "run_id": run_id,
+        "last_trained_at": timestamp,
         "features_path": str(args.features_path),
         "artifact_label": args.artifact_label,
         "training_rows": len(df),

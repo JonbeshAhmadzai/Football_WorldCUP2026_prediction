@@ -1,0 +1,129 @@
+{
+  "run_id": "live_result",
+  "last_trained_at": "20260701_184400",
+  "features_path": "/home/becode/Desktop/BeCode/becode_projects/Football-Match-Prediction-Project-FIFA-World-Cup-2026/src/modeling/training_features_live_result.csv",
+  "artifact_label": "live_result",
+  "training_rows": 79,
+  "train_rows": 59,
+  "test_rows": 20,
+  "eval_accuracy": 0.5,
+  "in_sample_accuracy": 0.9620253164556962,
+  "eval_report": {
+    "A": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 5.0
+    },
+    "D": {
+      "precision": 0.3333333333333333,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.2222222222222222,
+      "support": 6.0
+    },
+    "H": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5714285714285714,
+      "support": 9.0
+    },
+    "accuracy": 0.5,
+    "macro avg": {
+      "precision": 0.4777777777777778,
+      "recall": 0.4777777777777777,
+      "f1-score": 0.46455026455026455,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 0.475,
+      "recall": 0.5,
+      "f1-score": 0.47380952380952374,
+      "support": 20.0
+    }
+  },
+  "in_sample_report": {
+    "A": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1-score": 0.9743589743589743,
+      "support": 20.0
+    },
+    "D": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 22.0
+    },
+    "H": {
+      "precision": 0.9722222222222222,
+      "recall": 0.9459459459459459,
+      "f1-score": 0.958904109589041,
+      "support": 37.0
+    },
+    "accuracy": 0.9620253164556962,
+    "macro avg": {
+      "precision": 0.9629629629629629,
+      "recall": 0.9653153153153152,
+      "f1-score": 0.9632616076928167,
+      "support": 79.0
+    },
+    "weighted avg": {
+      "precision": 0.9637834036568214,
+      "recall": 0.9620253164556962,
+      "f1-score": 0.9621532886435895,
+      "support": 79.0
+    }
+  },
+  "feature_importance": {
+    "elo_diff": 0.11858917772769928,
+    "recent_goal_diff_diff": 0.10983918607234955,
+    "home_recent_draws": 0.0715375617146492,
+    "away_recent_goals_against": 0.06693871319293976,
+    "home_recent_goal_diff": 0.05733536556363106,
+    "recent_win_diff": 0.05685889720916748,
+    "away_elo": 0.055462341755628586,
+    "home_recent_wins": 0.05286078900098801,
+    "home_recent_goals_for": 0.049325428903102875,
+    "away_recent_goal_diff": 0.04883013293147087,
+    "away_recent_wins": 0.04827132076025009,
+    "away_recent_losses": 0.04735742136836052,
+    "away_recent_draws": 0.047276902943849564,
+    "home_elo": 0.04574419930577278,
+    "away_recent_goals_for": 0.04500827193260193,
+    "home_recent_goals_against": 0.04466189444065094,
+    "home_recent_losses": 0.03410247340798378,
+    "neutral": 0.0
+  },
+  "feature_columns": [
+    "home_elo",
+    "away_elo",
+    "elo_diff",
+    "home_recent_wins",
+    "home_recent_draws",
+    "home_recent_losses",
+    "home_recent_goals_for",
+    "home_recent_goals_against",
+    "home_recent_goal_diff",
+    "away_recent_wins",
+    "away_recent_draws",
+    "away_recent_losses",
+    "away_recent_goals_for",
+    "away_recent_goals_against",
+    "away_recent_goal_diff",
+    "recent_win_diff",
+    "recent_goal_diff_diff",
+    "neutral"
+  ],
+  "xgb_params": {
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "n_estimators": 80,
+    "max_depth": 2,
+    "learning_rate": 0.08,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "eval_metric": "mlogloss",
+    "random_state": 42
+  },
+  "warning": "Live result model is trained on current tournament matches only and is expected to be unstable."
+}
