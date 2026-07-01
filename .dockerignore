@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+.airflow-venv
+airflow_home
+airflow.db
+standalone_admin_password.txt
+webserver_config.py
+__pycache__
+*.pyc
+.pytest_cache
+.env
+app/frontend/node_modules
+app/frontend/.vite
+app/frontend/dist
+notebooks/.ipynb_checkpoints

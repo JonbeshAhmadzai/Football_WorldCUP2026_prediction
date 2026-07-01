@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: worldcup-2026-prediction-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

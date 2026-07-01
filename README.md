@@ -265,6 +265,79 @@ make simulate
 make build-ui
 ```
 
+## Deployment
+
+The project is deployment-ready as a single Dockerized web service.
+
+The Docker image:
+
+1. Installs frontend dependencies.
+2. Builds the React dashboard.
+3. Installs Python dependencies.
+4. Starts FastAPI with Uvicorn.
+5. Serves the React build and API from the same deployed service.
+
+### Deploy on Render
+
+This repository includes:
+
+```text
+render.yaml
+Dockerfile
+.dockerignore
+```
+
+Recommended Render setup:
+
+1. Push this repository to GitHub.
+2. In Render, create a new **Blueprint** or **Web Service** from the repository.
+3. Use the Docker environment.
+4. Render will use `render.yaml` and `Dockerfile`.
+5. The health check path is `/api/health`.
+
+The app will be served by Render on its generated public URL.
+
+### Deploy with Docker Locally
+
+```bash
+docker build -t worldcup-2026-prediction-app .
+docker run --rm -p 8501:8501 worldcup-2026-prediction-app
+```
+
+Open:
+
+```text
+http://127.0.0.1:8501
+```
+
+## Live Updates and GitHub Automation
+
+GitHub is mainly for source code and versioned project outputs. It is not a real-time database.
+
+For this project, live updating is handled with a scheduled GitHub Actions workflow:
+
+```text
+.github/workflows/live-pipeline.yml
+```
+
+It runs hourly and also supports manual runs from the GitHub Actions tab.
+
+The workflow:
+
+1. Scrapes the latest ESPN World Cup data.
+2. Validates the refreshed data.
+3. Rebuilds the augmented historical + live dataset.
+4. Retrains the historical + live model.
+5. Retrains the live result model.
+6. Retrains the exact score model.
+7. Runs tournament simulations.
+8. Rebuilds the React frontend.
+9. Commits updated data, model artifacts, simulations, reports, and dashboard build files back to GitHub if anything changed.
+
+If the deployed hosting provider is connected to this GitHub branch with auto-deploy enabled, every automated GitHub commit can trigger a fresh deployment. That means the hosted dashboard will keep receiving the latest scraped data and refreshed model outputs.
+
+For a larger production system, the better architecture would be a hosted database or object storage bucket instead of committing live data back to GitHub. For this educational project, GitHub Actions gives a simple and visible automation trail.
+
 ## Testing and Quality Checks
 
 Run tests:
