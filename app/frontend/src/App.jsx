@@ -1340,7 +1340,7 @@ function App() {
   }
 
   useEffect(() => {
-    loadDashboard({ refreshEspn: false });
+    loadDashboard({ refreshEspn: autoRefresh && !hasLoadedDashboard.current });
   }, [model, team, metric, sort, top, bracketMode]);
 
   useEffect(() => {

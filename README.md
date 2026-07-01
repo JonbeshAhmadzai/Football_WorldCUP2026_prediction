@@ -292,15 +292,12 @@ Recommended Render setup:
 1. Push this repository to GitHub.
 2. In Render, create a new **Blueprint** from the repository.
 3. Select the deployment branch.
-4. Render will use `render.yaml` to create:
-   - the Dockerized FastAPI + React web service
-   - a PostgreSQL database
-   - a scheduled cron scraper
+4. Render will use `render.yaml` to create one free Dockerized FastAPI + React web service.
 5. The health check path is `/api/health`.
 
 The app will be served by Render on its generated public URL.
 
-The deployed app reads live match state from PostgreSQL through `DATABASE_URL`. If `DATABASE_URL` is not configured, the app falls back to local CSV/JSON files.
+This free setup does not create a paid database or paid cron job. Live ESPN refreshes run through the app while the dashboard is open.
 
 ### Deploy with Docker Locally
 
@@ -315,58 +312,43 @@ Open:
 http://127.0.0.1:8501
 ```
 
-## Live Updates in Deployment
+## Live Updates in Free Deployment
 
-GitHub is mainly for source code. Live match updates are handled by deployment infrastructure, not by committing new data to GitHub.
+GitHub is mainly for source code. Live match updates should not be committed to GitHub every few minutes.
 
-The production-style live flow is:
+The free Render flow is:
 
 ```text
-Render Cron Job
+React dashboard polling
+    -> FastAPI /api/refresh-live
     -> ESPN scoreboard scraper
-    -> PostgreSQL live tables
+    -> local app data files inside the running container
     -> FastAPI dashboard API
-    -> React dashboard polling
 ```
 
-The Render blueprint creates a cron service named:
+When the dashboard is open, it polls ESPN refreshes automatically. This keeps the displayed live data current without a paid database, paid cron service, or GitHub spam commits.
+
+Free deployment limitations:
+
+- Render free web services may sleep when inactive.
+- Local refreshed data can reset when the container restarts.
+- Live updates happen while the app is awake/open, not as a true always-on background job.
+- Model retraining is still a heavier offline/pipeline task.
+
+### Optional Production Upgrade
+
+If you later want a fully production-style live system, add a hosted PostgreSQL database and a scheduled worker/cron service.
+
+The upgraded flow is:
 
 ```text
-worldcup-2026-live-scraper
+scheduled scraper
+    -> PostgreSQL
+    -> FastAPI
+    -> React dashboard
 ```
 
-It runs every 5 minutes and executes:
-
-```bash
-python src/scraping/scrape_latest_results.py
-```
-
-When `DATABASE_URL` exists, the scraper writes:
-
-- cleaned live match rows to `worldcup_live_results`
-- raw ESPN snapshots to `espn_scoreboard_snapshots`
-
-The FastAPI app reads `worldcup_live_results` first and falls back to `data/processed/worldcup_2026_live_results.csv` for local development.
-
-This avoids GitHub spam commits and avoids redeploying the whole app just because a live score changed.
-
-### Model Refresh in Deployment
-
-Live score display and dashboard match status update through PostgreSQL without redeploying.
-
-Model retraining is heavier than live-score refresh. The current deployment keeps model artifacts inside the Docker image and project files. For a fully production-grade retraining setup, use one of these:
-
-- a persistent disk shared by the training worker and web service
-- object storage for model artifacts
-- a model registry service
-
-For this project, the clean practical setup is:
-
-- cron scraper every 5 minutes for live match updates
-- model retraining locally or through Airflow when new final results are available
-- redeploy after model artifacts change
-
-This keeps the deployed dashboard live while avoiding unsafe automatic model overwrites in an ephemeral container.
+The code already supports this through optional `DATABASE_URL`, but the free Render blueprint intentionally avoids paid services.
 
 ## Testing and Quality Checks
 

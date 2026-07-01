@@ -8,25 +8,3 @@ services:
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: DATABASE_URL
-        fromDatabase:
-          name: worldcup-2026-live-db
-          property: connectionString
-
-  - type: cron
-    name: worldcup-2026-live-scraper
-    runtime: docker
-    dockerfilePath: ./Dockerfile
-    schedule: "*/5 * * * *"
-    dockerCommand: "python src/scraping/scrape_latest_results.py"
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
-      - key: DATABASE_URL
-        fromDatabase:
-          name: worldcup-2026-live-db
-          property: connectionString
-
-databases:
-  - name: worldcup-2026-live-db
-    plan: free
