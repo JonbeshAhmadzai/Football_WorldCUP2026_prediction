@@ -293,11 +293,12 @@ Recommended Render setup:
 2. In Render, create a new **Blueprint** from the repository.
 3. Select the deployment branch.
 4. Render will use `render.yaml` to create one free Dockerized FastAPI + React web service.
-5. The health check path is `/api/health`.
+5. Add `DATABASE_URL` as an environment variable using a free external PostgreSQL database URL from Neon or Supabase.
+6. The health check path is `/api/health`.
 
 The app will be served by Render on its generated public URL.
 
-This free setup does not create a paid database or paid cron job. Live ESPN refreshes run through the app while the dashboard is open.
+This free setup does not create a paid Render database or paid Render cron job. Live ESPN refreshes run through the app while the dashboard is open, and finished/live match rows persist in the external PostgreSQL database.
 
 ### Deploy with Docker Locally
 
@@ -316,28 +317,56 @@ http://127.0.0.1:8501
 
 GitHub is mainly for source code. Live match updates should not be committed to GitHub every few minutes.
 
-The free Render flow is:
+The free Render + external PostgreSQL flow is:
 
 ```text
 React dashboard polling
     -> FastAPI /api/refresh-live
     -> ESPN scoreboard scraper
-    -> local app data files inside the running container
+    -> free external PostgreSQL through DATABASE_URL
     -> FastAPI dashboard API
 ```
 
-When the dashboard is open, it polls ESPN refreshes automatically. This keeps the displayed live data current without a paid database, paid cron service, or GitHub spam commits.
+When the dashboard is open, it polls ESPN refreshes automatically. The scraper writes live rows into PostgreSQL when `DATABASE_URL` is configured, so the deployed app is no longer stuck on the last committed CSV snapshot.
+
+### Free PostgreSQL Setup
+
+Use either Neon or Supabase free PostgreSQL.
+
+Neon setup:
+
+1. Create a free Neon project.
+2. Copy the pooled or direct PostgreSQL connection string.
+3. Make sure the URL includes SSL, usually `?sslmode=require`.
+4. In Render, open `worldcup-2026-prediction-app`.
+5. Go to **Environment**.
+6. Add `DATABASE_URL`.
+7. Paste the Neon connection string.
+8. Save and redeploy.
+
+Supabase setup:
+
+1. Create a free Supabase project.
+2. Go to **Project Settings** > **Database**.
+3. Copy the PostgreSQL connection string.
+4. Replace the password placeholder with your actual database password.
+5. Add it to Render as `DATABASE_URL`.
+6. Save and redeploy.
+
+After redeploy, open the dashboard. The first ESPN refresh will automatically create the required PostgreSQL tables:
+
+- `worldcup_live_results`
+- `espn_scoreboard_snapshots`
 
 Free deployment limitations:
 
 - Render free web services may sleep when inactive.
-- Local refreshed data can reset when the container restarts.
-- Live updates happen while the app is awake/open, not as a true always-on background job.
+- Live refreshes happen while the app is awake/open, not as a true always-on background job.
 - Model retraining is still a heavier offline/pipeline task.
 
 ### Optional Production Upgrade
 
-If you later want a fully production-style live system, add a hosted PostgreSQL database and a scheduled worker/cron service.
+If you later want a fully production-style live system, add a scheduled worker/cron service.
 
 The upgraded flow is:
 
@@ -348,7 +377,7 @@ scheduled scraper
     -> React dashboard
 ```
 
-The code already supports this through optional `DATABASE_URL`, but the free Render blueprint intentionally avoids paid services.
+The code already supports the PostgreSQL part through `DATABASE_URL`. A scheduled worker would make refreshes happen even when nobody has the dashboard open.
 
 ## Testing and Quality Checks
 
