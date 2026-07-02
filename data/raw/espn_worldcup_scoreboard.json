@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T04:43:40+00:00",
+  "fetched_at": "2026-07-02T08:16:28+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -65154,7 +65154,7 @@
                 "startDate": "2026-07-02T00:00Z",
                 "attendance": 68827,
                 "timeValid": true,
-                "recent": true,
+                "recent": false,
                 "status": {
                   "clock": 5400.0,
                   "displayClock": "90'+10'",
@@ -65914,8 +65914,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,232",
-                    "numberAvailable": 408,
+                    "summary": "Tickets as low as $1,285",
+                    "numberAvailable": 465,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-sofi-stadium-7-2-2026--sports-soccer/production/5080836?wsUser=717"
@@ -66455,7 +66455,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "-135",
+                          "odds": "-140",
                           "link": {
                             "rel": [
                               "over",
@@ -66483,7 +66483,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "+105",
+                          "odds": "+115",
                           "link": {
                             "rel": [
                               "under",
@@ -66515,7 +66515,7 @@
                         },
                         "close": {
                           "line": "-1.5",
-                          "odds": "-105",
+                          "odds": "-110",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -66573,7 +66573,7 @@
                           "odds": "-350"
                         },
                         "close": {
-                          "odds": "-300",
+                          "odds": "-295",
                           "link": {
                             "rel": [
                               "home",
@@ -66644,7 +66644,7 @@
                         }
                       }
                     },
-                    "details": "ESP -300"
+                    "details": "ESP -295"
                   }
                 ],
                 "wasSuspended": false,
@@ -66756,8 +66756,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $2,017",
-                    "numberAvailable": 212,
+                    "summary": "Tickets as low as $1,974",
+                    "numberAvailable": 223,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-bmo-field-7-2-2026--sports-soccer/production/5080833?wsUser=717"
@@ -67255,7 +67255,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 275,
+                      "moneyLine": 280,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -67282,7 +67282,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "-125",
+                          "odds": "-130",
                           "link": {
                             "rel": [
                               "over",
@@ -67310,7 +67310,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "+100",
+                          "odds": "+105",
                           "link": {
                             "rel": [
                               "under",
@@ -67342,7 +67342,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "-140",
+                          "odds": "-145",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -67370,7 +67370,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "+110",
+                          "odds": "+115",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -67400,7 +67400,7 @@
                           "odds": "-110"
                         },
                         "close": {
-                          "odds": "-135",
+                          "odds": "-140",
                           "link": {
                             "rel": [
                               "home",
@@ -67425,7 +67425,7 @@
                           "odds": "+320"
                         },
                         "close": {
-                          "odds": "+390",
+                          "odds": "+400",
                           "link": {
                             "rel": [
                               "away",
@@ -67450,7 +67450,7 @@
                           "odds": "+250"
                         },
                         "close": {
-                          "odds": "+275",
+                          "odds": "+280",
                           "link": {
                             "rel": [
                               "draw",
@@ -67471,7 +67471,7 @@
                         }
                       }
                     },
-                    "details": "POR -135"
+                    "details": "POR -140"
                   }
                 ],
                 "wasSuspended": false,
@@ -67583,8 +67583,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $375",
-                    "numberAvailable": 1375,
+                    "summary": "Tickets as low as $394",
+                    "numberAvailable": 1129,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-bc-place-stadium-7-2-2026--sports-soccer/production/5080838?wsUser=717"
@@ -68169,7 +68169,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "+105",
+                          "odds": "-105",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -68197,7 +68197,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "-130",
+                          "odds": "-120",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -68227,7 +68227,7 @@
                           "odds": "-120"
                         },
                         "close": {
-                          "odds": "+110",
+                          "odds": "+100",
                           "link": {
                             "rel": [
                               "home",
@@ -68252,7 +68252,7 @@
                           "odds": "+330"
                         },
                         "close": {
-                          "odds": "+290",
+                          "odds": "+320",
                           "link": {
                             "rel": [
                               "away",
@@ -68298,7 +68298,7 @@
                         }
                       }
                     },
-                    "details": "SUI +110"
+                    "details": "SUI +100"
                   }
                 ],
                 "wasSuspended": false,
@@ -68350,20 +68350,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -68410,8 +68396,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $634",
-                    "numberAvailable": 1121,
+                    "summary": "Tickets as low as $579",
+                    "numberAvailable": 1269,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-att-stadium-7-3-2026--sports-soccer/production/5080843?wsUser=717"
@@ -69237,8 +69223,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $2,054",
-                    "numberAvailable": 1213,
+                    "summary": "Tickets as low as $1,780",
+                    "numberAvailable": 1485,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-3-2026--sports-soccer/production/5080839?wsUser=717"
@@ -69765,7 +69751,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "-155",
+                          "odds": "-150",
                           "link": {
                             "rel": [
                               "over",
@@ -70066,8 +70052,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $865",
-                    "numberAvailable": 2056,
+                    "summary": "Tickets as low as $726",
+                    "numberAvailable": 2143,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-geha-field-at-arrowhead-stadium-7-3-2026--sports-soccer/production/5080842?wsUser=717"
@@ -70652,7 +70638,7 @@
                         },
                         "close": {
                           "line": "-1.5",
-                          "odds": "+155",
+                          "odds": "+150",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -70680,7 +70666,7 @@
                         },
                         "close": {
                           "line": "+1.5",
-                          "odds": "-195",
+                          "odds": "-190",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -70893,8 +70879,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $797",
-                    "numberAvailable": 1996,
+                    "summary": "Tickets as low as $683",
+                    "numberAvailable": 2136,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-nrg-stadium-7-4-2026--sports-soccer/production/5080848?wsUser=717"
@@ -71539,7 +71525,7 @@
                           "odds": "+370"
                         },
                         "close": {
-                          "odds": "+390",
+                          "odds": "+400",
                           "link": {
                             "rel": [
                               "home",
@@ -71564,7 +71550,7 @@
                           "odds": "-125"
                         },
                         "close": {
-                          "odds": "-120",
+                          "odds": "-125",
                           "link": {
                             "rel": [
                               "away",
@@ -71610,7 +71596,7 @@
                         }
                       }
                     },
-                    "details": "MAR -120"
+                    "details": "MAR -125"
                   }
                 ],
                 "wasSuspended": false,
@@ -71722,8 +71708,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $867",
-                    "numberAvailable": 2448,
+                    "summary": "Tickets as low as $798",
+                    "numberAvailable": 2579,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-lincoln-financial-field-7-4-2026--sports-soccer/production/5080845?wsUser=717"
@@ -72549,8 +72535,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,705",
-                    "numberAvailable": 2321,
+                    "summary": "Tickets as low as $1,376",
+                    "numberAvailable": 2866,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-metlife-stadium-7-5-2026--sports-soccer/production/5080851?wsUser=717"
@@ -73316,20 +73302,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -73761,8 +73733,8 @@
                         "abbreviation": "G",
                         "leaders": [
                           {
-                            "displayValue": "3",
-                            "value": 3.0,
+                            "displayValue": "5",
+                            "value": 5.0,
                             "athlete": {
                               "id": "142200",
                               "displayName": "Harry Kane",
@@ -73801,8 +73773,8 @@
                         "abbreviation": "G",
                         "leaders": [
                           {
-                            "displayValue": "3",
-                            "value": 3.0,
+                            "displayValue": "5",
+                            "value": 5.0,
                             "athlete": {
                               "id": "142200",
                               "displayName": "Harry Kane",
@@ -73861,7 +73833,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 220,
+                      "moneyLine": 215,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -74031,7 +74003,7 @@
                           "odds": "+125"
                         },
                         "close": {
-                          "odds": "+150",
+                          "odds": "+155",
                           "link": {
                             "rel": [
                               "away",
@@ -74056,7 +74028,7 @@
                           "odds": "+220"
                         },
                         "close": {
-                          "odds": "+220",
+                          "odds": "+215",
                           "link": {
                             "rel": [
                               "draw",
@@ -74077,7 +74049,7 @@
                         }
                       }
                     },
-                    "details": "ENG +150"
+                    "details": "ENG +155"
                   }
                 ],
                 "wasSuspended": false,
@@ -74415,8 +74387,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $2,668",
-                    "numberAvailable": 1972,
+                    "summary": "Tickets as low as $2,572",
+                    "numberAvailable": 2085,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-lumen-field-7-6-2026--sports-soccer/production/5080857?wsUser=717"
@@ -74616,8 +74588,8 @@
                         "abbreviation": "G",
                         "leaders": [
                           {
-                            "displayValue": "2",
-                            "value": 2.0,
+                            "displayValue": "3",
+                            "value": 3.0,
                             "athlete": {
                               "id": "282643",
                               "displayName": "Folarin Balogun",
@@ -74656,8 +74628,8 @@
                         "abbreviation": "G",
                         "leaders": [
                           {
-                            "displayValue": "2",
-                            "value": 2.0,
+                            "displayValue": "3",
+                            "value": 3.0,
                             "athlete": {
                               "id": "282643",
                               "displayName": "Folarin Balogun",
@@ -74817,11 +74789,11 @@
                             "displayValue": "2",
                             "value": 2.0,
                             "athlete": {
-                              "id": "174980",
-                              "displayName": "Leandro Trossard",
-                              "shortName": "L. Trossard",
-                              "fullName": "Leandro Trossard",
-                              "jersey": "10",
+                              "id": "193297",
+                              "displayName": "Youri Tielemans",
+                              "shortName": "Y. Tielemans",
+                              "fullName": "Youri Tielemans",
+                              "jersey": "8",
                               "active": true,
                               "team": {
                                 "id": "459"
@@ -74833,12 +74805,12 @@
                                     "desktop",
                                     "athlete"
                                   ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/174980/leandro-trossard",
+                                  "href": "https://www.espn.com/soccer/player/_/id/193297/youri-tielemans",
                                   "isHidden": false
                                 }
                               ],
                               "position": {
-                                "abbreviation": "F"
+                                "abbreviation": "M"
                               }
                             },
                             "team": {
@@ -74857,11 +74829,11 @@
                             "displayValue": "2",
                             "value": 2.0,
                             "athlete": {
-                              "id": "174980",
-                              "displayName": "Leandro Trossard",
-                              "shortName": "L. Trossard",
-                              "fullName": "Leandro Trossard",
-                              "jersey": "10",
+                              "id": "193297",
+                              "displayName": "Youri Tielemans",
+                              "shortName": "Y. Tielemans",
+                              "fullName": "Youri Tielemans",
+                              "jersey": "8",
                               "active": true,
                               "team": {
                                 "id": "459"
@@ -74873,12 +74845,12 @@
                                     "desktop",
                                     "athlete"
                                   ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/174980/leandro-trossard",
+                                  "href": "https://www.espn.com/soccer/player/_/id/193297/youri-tielemans",
                                   "isHidden": false
                                 }
                               ],
                               "position": {
-                                "abbreviation": "F"
+                                "abbreviation": "M"
                               }
                             },
                             "team": {
@@ -74914,7 +74886,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 245,
+                      "moneyLine": 250,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -75059,7 +75031,7 @@
                           "odds": "+160"
                         },
                         "close": {
-                          "odds": "+155",
+                          "odds": "+150",
                           "link": {
                             "rel": [
                               "home",
@@ -75109,7 +75081,7 @@
                           "odds": "+235"
                         },
                         "close": {
-                          "odds": "+245",
+                          "odds": "+250",
                           "link": {
                             "rel": [
                               "draw",
@@ -75130,7 +75102,7 @@
                         }
                       }
                     },
-                    "details": "USA +155"
+                    "details": "USA +150"
                   }
                 ],
                 "wasSuspended": false,
@@ -76538,6 +76510,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -76756,6 +76742,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -76971,6 +76971,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760515",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
