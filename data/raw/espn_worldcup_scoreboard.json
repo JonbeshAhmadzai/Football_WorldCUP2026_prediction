@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T15:35:08+00:00",
+  "fetched_at": "2026-07-03T17:40:36+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -1832,8 +1832,8 @@
                       "shortDisplayName": "Canada",
                       "name": "Canada",
                       "location": "Canada",
-                      "color": "ed2224",
-                      "alternateColor": "000000",
+                      "color": "000000",
+                      "alternateColor": "ed2224",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
                       "links": [
@@ -2696,8 +2696,8 @@
                       "shortDisplayName": "USA",
                       "name": "United States",
                       "location": "United States",
-                      "color": "d42339",
-                      "alternateColor": "213065",
+                      "color": "213065",
+                      "alternateColor": "d42339",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                       "links": [
@@ -10744,7 +10744,7 @@
                       "name": "Belgium",
                       "location": "Belgium",
                       "color": "E30613",
-                      "alternateColor": "000000",
+                      "alternateColor": "6ECFF6",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
                       "links": [
@@ -13926,7 +13926,7 @@
                       "name": "Norway",
                       "location": "Norway",
                       "color": "C8102E",
-                      "alternateColor": "000000",
+                      "alternateColor": "C8102E",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
                       "links": [
@@ -16843,8 +16843,8 @@
                       "shortDisplayName": "England",
                       "name": "England",
                       "location": "England",
-                      "color": "ffffff",
-                      "alternateColor": "EA1F29",
+                      "color": "EA1F29",
+                      "alternateColor": "FFFFFF",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                       "links": [
@@ -20916,8 +20916,8 @@
                       "shortDisplayName": "Canada",
                       "name": "Canada",
                       "location": "Canada",
-                      "color": "ed2224",
-                      "alternateColor": "000000",
+                      "color": "000000",
+                      "alternateColor": "ed2224",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
                       "links": [
@@ -22599,8 +22599,8 @@
                       "shortDisplayName": "USA",
                       "name": "United States",
                       "location": "United States",
-                      "color": "d42339",
-                      "alternateColor": "213065",
+                      "color": "213065",
+                      "alternateColor": "d42339",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                       "links": [
@@ -29863,7 +29863,7 @@
                       "name": "Belgium",
                       "location": "Belgium",
                       "color": "E30613",
-                      "alternateColor": "000000",
+                      "alternateColor": "6ECFF6",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
                       "links": [
@@ -33874,7 +33874,7 @@
                       "name": "Norway",
                       "location": "Norway",
                       "color": "C8102E",
-                      "alternateColor": "000000",
+                      "alternateColor": "C8102E",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
                       "links": [
@@ -36275,8 +36275,8 @@
                       "shortDisplayName": "England",
                       "name": "England",
                       "location": "England",
-                      "color": "ffffff",
-                      "alternateColor": "EA1F29",
+                      "color": "EA1F29",
+                      "alternateColor": "FFFFFF",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                       "links": [
@@ -39326,8 +39326,8 @@
                       "shortDisplayName": "Canada",
                       "name": "Canada",
                       "location": "Canada",
-                      "color": "ed2224",
-                      "alternateColor": "000000",
+                      "color": "000000",
+                      "alternateColor": "ed2224",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
                       "links": [
@@ -47107,8 +47107,8 @@
                       "shortDisplayName": "USA",
                       "name": "United States",
                       "location": "United States",
-                      "color": "d42339",
-                      "alternateColor": "213065",
+                      "color": "213065",
+                      "alternateColor": "d42339",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                       "links": [
@@ -47760,7 +47760,7 @@
                       "name": "Norway",
                       "location": "Norway",
                       "color": "C8102E",
-                      "alternateColor": "000000",
+                      "alternateColor": "C8102E",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
                       "links": [
@@ -52267,7 +52267,7 @@
                       "name": "Belgium",
                       "location": "Belgium",
                       "color": "E30613",
-                      "alternateColor": "000000",
+                      "alternateColor": "6ECFF6",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
                       "links": [
@@ -53951,8 +53951,8 @@
                       "shortDisplayName": "England",
                       "name": "England",
                       "location": "England",
-                      "color": "ffffff",
-                      "alternateColor": "EA1F29",
+                      "color": "EA1F29",
+                      "alternateColor": "FFFFFF",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                       "links": [
@@ -57974,8 +57974,8 @@
                       "shortDisplayName": "Canada",
                       "name": "Canada",
                       "location": "Canada",
-                      "color": "ed2224",
-                      "alternateColor": "000000",
+                      "color": "000000",
+                      "alternateColor": "ed2224",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
                       "links": [
@@ -58338,20 +58338,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760486",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -60394,20 +60380,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -61297,6 +61269,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -61590,7 +61576,7 @@
                       "name": "Norway",
                       "location": "Norway",
                       "color": "C8102E",
-                      "alternateColor": "000000",
+                      "alternateColor": "C8102E",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
                       "links": [
@@ -63476,6 +63462,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -63605,8 +63605,8 @@
                       "shortDisplayName": "England",
                       "name": "England",
                       "location": "England",
-                      "color": "ffffff",
-                      "alternateColor": "EA1F29",
+                      "color": "EA1F29",
+                      "alternateColor": "FFFFFF",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                       "links": [
@@ -64366,7 +64366,7 @@
                       "name": "Belgium",
                       "location": "Belgium",
                       "color": "E30613",
-                      "alternateColor": "000000",
+                      "alternateColor": "6ECFF6",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
                       "links": [
@@ -65233,8 +65233,8 @@
                       "shortDisplayName": "USA",
                       "name": "United States",
                       "location": "United States",
-                      "color": "d42339",
-                      "alternateColor": "213065",
+                      "color": "213065",
+                      "alternateColor": "d42339",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                       "links": [
@@ -68098,7 +68098,7 @@
                 "startDate": "2026-07-03T18:00Z",
                 "attendance": 0,
                 "timeValid": true,
-                "recent": false,
+                "recent": true,
                 "status": {
                   "clock": 0.0,
                   "displayClock": "0'",
@@ -68122,8 +68122,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $644",
-                    "numberAvailable": 717,
+                    "summary": "Tickets as low as $909",
+                    "numberAvailable": 26,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-att-stadium-7-3-2026--sports-soccer/production/5080843?wsUser=717"
@@ -68314,7 +68314,53 @@
                         "id": "1800"
                       }
                     },
-                    "statistics": [],
+                    "statistics": [
+                      {
+                        "name": "appearances",
+                        "abbreviation": "APP",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "foulsCommitted",
+                        "abbreviation": "FC",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "wonCorners",
+                        "abbreviation": "CW",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "goalAssists",
+                        "abbreviation": "A",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "possessionPct",
+                        "abbreviation": "PP",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "shotAssists",
+                        "abbreviation": "SHAST",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "shotsOnTarget",
+                        "abbreviation": "SOG",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "totalGoals",
+                        "abbreviation": "G",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "totalShots",
+                        "abbreviation": "SHOT",
+                        "displayValue": "0"
+                      }
+                    ],
                     "leaders": [
                       {
                         "name": "goals",
@@ -68512,7 +68558,53 @@
                         "id": "1561"
                       }
                     },
-                    "statistics": [],
+                    "statistics": [
+                      {
+                        "name": "appearances",
+                        "abbreviation": "APP",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "foulsCommitted",
+                        "abbreviation": "FC",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "wonCorners",
+                        "abbreviation": "CW",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "goalAssists",
+                        "abbreviation": "A",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "possessionPct",
+                        "abbreviation": "PP",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "shotAssists",
+                        "abbreviation": "SHAST",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "shotsOnTarget",
+                        "abbreviation": "SOG",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "totalGoals",
+                        "abbreviation": "G",
+                        "displayValue": "0"
+                      },
+                      {
+                        "name": "totalShots",
+                        "abbreviation": "SHOT",
+                        "displayValue": "0"
+                      }
+                    ],
                     "leaders": [
                       {
                         "name": "goals",
@@ -68636,7 +68728,7 @@
                       ]
                     },
                     "drawOdds": {
-                      "moneyLine": 190,
+                      "moneyLine": 185,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -68663,7 +68755,7 @@
                         },
                         "close": {
                           "line": "o1.5",
-                          "odds": "-185",
+                          "odds": "-170",
                           "link": {
                             "rel": [
                               "over",
@@ -68691,7 +68783,7 @@
                         },
                         "close": {
                           "line": "u1.5",
-                          "odds": "+145",
+                          "odds": "+135",
                           "link": {
                             "rel": [
                               "under",
@@ -68831,7 +68923,7 @@
                           "odds": "+200"
                         },
                         "close": {
-                          "odds": "+190",
+                          "odds": "+185",
                           "link": {
                             "rel": [
                               "draw",
@@ -68964,8 +69056,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,820",
-                    "numberAvailable": 766,
+                    "summary": "Tickets as low as $2,051",
+                    "numberAvailable": 571,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-3-2026--sports-soccer/production/5080839?wsUser=717"
@@ -69610,7 +69702,7 @@
                           "odds": "-650"
                         },
                         "close": {
-                          "odds": "-650",
+                          "odds": "-700",
                           "link": {
                             "rel": [
                               "home",
@@ -69635,7 +69727,7 @@
                           "odds": "+1600"
                         },
                         "close": {
-                          "odds": "+1800",
+                          "odds": "+1700",
                           "link": {
                             "rel": [
                               "away",
@@ -69681,7 +69773,7 @@
                         }
                       }
                     },
-                    "details": "ARG -650"
+                    "details": "ARG -700"
                   }
                 ],
                 "wasSuspended": false,
@@ -69793,8 +69885,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $726",
-                    "numberAvailable": 1530,
+                    "summary": "Tickets as low as $681",
+                    "numberAvailable": 1448,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-geha-field-at-arrowhead-stadium-7-3-2026--sports-soccer/production/5080842?wsUser=717"
@@ -70292,7 +70384,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 340,
+                      "moneyLine": 330,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -70319,7 +70411,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "+100",
+                          "odds": "+105",
                           "link": {
                             "rel": [
                               "over",
@@ -70347,7 +70439,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "-125",
+                          "odds": "-130",
                           "link": {
                             "rel": [
                               "under",
@@ -70437,7 +70529,7 @@
                           "odds": "-125"
                         },
                         "close": {
-                          "odds": "-230",
+                          "odds": "-235",
                           "link": {
                             "rel": [
                               "home",
@@ -70487,7 +70579,7 @@
                           "odds": "+260"
                         },
                         "close": {
-                          "odds": "+340",
+                          "odds": "+330",
                           "link": {
                             "rel": [
                               "draw",
@@ -70508,7 +70600,7 @@
                         }
                       }
                     },
-                    "details": "COL -230"
+                    "details": "COL -235"
                   }
                 ],
                 "wasSuspended": false,
@@ -70621,7 +70713,7 @@
                 "tickets": [
                   {
                     "summary": "Tickets as low as $674",
-                    "numberAvailable": 1826,
+                    "numberAvailable": 1651,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-nrg-stadium-7-4-2026--sports-soccer/production/5080848?wsUser=717"
@@ -70715,8 +70807,8 @@
                       "shortDisplayName": "Canada",
                       "name": "Canada",
                       "location": "Canada",
-                      "color": "ed2224",
-                      "alternateColor": "000000",
+                      "color": "000000",
+                      "alternateColor": "ed2224",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
                       "links": [
@@ -71121,7 +71213,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 250,
+                      "moneyLine": 245,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -71266,7 +71358,7 @@
                           "odds": "+370"
                         },
                         "close": {
-                          "odds": "+400",
+                          "odds": "+390",
                           "link": {
                             "rel": [
                               "home",
@@ -71291,7 +71383,7 @@
                           "odds": "-125"
                         },
                         "close": {
-                          "odds": "-125",
+                          "odds": "-130",
                           "link": {
                             "rel": [
                               "away",
@@ -71316,7 +71408,7 @@
                           "odds": "+265"
                         },
                         "close": {
-                          "odds": "+250",
+                          "odds": "+245",
                           "link": {
                             "rel": [
                               "draw",
@@ -71337,7 +71429,7 @@
                         }
                       }
                     },
-                    "details": "MAR -125"
+                    "details": "MAR -130"
                   }
                 ],
                 "wasSuspended": false,
@@ -71449,8 +71541,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $791",
-                    "numberAvailable": 1613,
+                    "summary": "Tickets as low as $827",
+                    "numberAvailable": 1538,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-lincoln-financial-field-7-4-2026--sports-soccer/production/5080845?wsUser=717"
@@ -71948,7 +72040,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 600,
+                      "moneyLine": 550,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -72093,7 +72185,7 @@
                           "odds": "+1500"
                         },
                         "close": {
-                          "odds": "+1800",
+                          "odds": "+1700",
                           "link": {
                             "rel": [
                               "home",
@@ -72118,7 +72210,7 @@
                           "odds": "-500"
                         },
                         "close": {
-                          "odds": "-525",
+                          "odds": "-550",
                           "link": {
                             "rel": [
                               "away",
@@ -72143,7 +72235,7 @@
                           "odds": "+600"
                         },
                         "close": {
-                          "odds": "+600",
+                          "odds": "+550",
                           "link": {
                             "rel": [
                               "draw",
@@ -72164,7 +72256,7 @@
                         }
                       }
                     },
-                    "details": "FRA -525"
+                    "details": "FRA -550"
                   }
                 ],
                 "wasSuspended": false,
@@ -72276,8 +72368,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,461",
-                    "numberAvailable": 2260,
+                    "summary": "Tickets as low as $1,478",
+                    "numberAvailable": 2146,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-metlife-stadium-7-5-2026--sports-soccer/production/5080851?wsUser=717"
@@ -72570,7 +72662,7 @@
                       "name": "Norway",
                       "location": "Norway",
                       "color": "C8102E",
-                      "alternateColor": "000000",
+                      "alternateColor": "C8102E",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
                       "links": [
@@ -72775,7 +72867,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 280,
+                      "moneyLine": 275,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -72945,7 +73037,7 @@
                           "odds": "+310"
                         },
                         "close": {
-                          "odds": "+320",
+                          "odds": "+310",
                           "link": {
                             "rel": [
                               "away",
@@ -72970,7 +73062,7 @@
                           "odds": "+260"
                         },
                         "close": {
-                          "odds": "+280",
+                          "odds": "+275",
                           "link": {
                             "rel": [
                               "draw",
@@ -73382,8 +73474,8 @@
                       "shortDisplayName": "England",
                       "name": "England",
                       "location": "England",
-                      "color": "ffffff",
-                      "alternateColor": "EA1F29",
+                      "color": "EA1F29",
+                      "alternateColor": "FFFFFF",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                       "links": [
@@ -73588,7 +73680,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 215,
+                      "moneyLine": 220,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -73733,7 +73825,7 @@
                           "odds": "+245"
                         },
                         "close": {
-                          "odds": "+220",
+                          "odds": "+215",
                           "link": {
                             "rel": [
                               "home",
@@ -73783,7 +73875,7 @@
                           "odds": "+220"
                         },
                         "close": {
-                          "odds": "+215",
+                          "odds": "+220",
                           "link": {
                             "rel": [
                               "draw",
@@ -73856,20 +73948,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -73916,8 +73994,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $2,058",
-                    "numberAvailable": 2261,
+                    "summary": "Tickets as low as $2,201",
+                    "numberAvailable": 2531,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-att-stadium-7-6-2026--sports-soccer/production/5080855?wsUser=717"
@@ -74415,7 +74493,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 260,
+                      "moneyLine": 255,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -74560,7 +74638,7 @@
                           "odds": "+310"
                         },
                         "close": {
-                          "odds": "+300",
+                          "odds": "+295",
                           "link": {
                             "rel": [
                               "home",
@@ -74585,7 +74663,7 @@
                           "odds": "-110"
                         },
                         "close": {
-                          "odds": "-105",
+                          "odds": "-110",
                           "link": {
                             "rel": [
                               "away",
@@ -74610,7 +74688,7 @@
                           "odds": "+260"
                         },
                         "close": {
-                          "odds": "+260",
+                          "odds": "+255",
                           "link": {
                             "rel": [
                               "draw",
@@ -74631,7 +74709,7 @@
                         }
                       }
                     },
-                    "details": "ESP -105"
+                    "details": "ESP -110"
                   }
                 ],
                 "wasSuspended": false,
@@ -74743,8 +74821,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,724",
-                    "numberAvailable": 2294,
+                    "summary": "Tickets as low as $1,873",
+                    "numberAvailable": 2249,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-lumen-field-7-6-2026--sports-soccer/production/5080857?wsUser=717"
@@ -74838,8 +74916,8 @@
                       "shortDisplayName": "USA",
                       "name": "United States",
                       "location": "United States",
-                      "color": "d42339",
-                      "alternateColor": "213065",
+                      "color": "213065",
+                      "alternateColor": "d42339",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                       "links": [
@@ -75037,7 +75115,7 @@
                       "name": "Belgium",
                       "location": "Belgium",
                       "color": "E30613",
-                      "alternateColor": "000000",
+                      "alternateColor": "6ECFF6",
                       "isActive": true,
                       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
                       "links": [
@@ -75297,7 +75375,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "+110",
+                          "odds": "+105",
                           "link": {
                             "rel": [
                               "under",
@@ -75329,7 +75407,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "+150",
+                          "odds": "+155",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -75357,7 +75435,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "-190",
+                          "odds": "-200",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -75387,7 +75465,7 @@
                           "odds": "+160"
                         },
                         "close": {
-                          "odds": "+155",
+                          "odds": "+160",
                           "link": {
                             "rel": [
                               "home",
@@ -75412,7 +75490,7 @@
                           "odds": "+175"
                         },
                         "close": {
-                          "odds": "+180",
+                          "odds": "+170",
                           "link": {
                             "rel": [
                               "away",
@@ -75458,7 +75536,7 @@
                         }
                       }
                     },
-                    "details": "USA +155"
+                    "details": "USA +160"
                   }
                 ],
                 "wasSuspended": false,
@@ -75796,8 +75874,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $963",
-                    "numberAvailable": 1120,
+                    "summary": "Tickets as low as $854",
+                    "numberAvailable": 1195,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-bc-place-stadium-7-7-2026--sports-soccer/production/5080861?wsUser=717"
@@ -77283,20 +77361,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760514",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
