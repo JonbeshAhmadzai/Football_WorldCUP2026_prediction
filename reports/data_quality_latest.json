@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T00:12:17+00:00",
+  "generated_at": "2026-07-04T04:22:01+00:00",
   "status": "pass",
   "summary": {
     "checks": 28,
@@ -11,20 +11,20 @@
     "live_results": {
       "path": "data/processed/worldcup_2026_live_results.csv",
       "exists": true,
-      "size_bytes": 25867,
-      "modified_at": "2026-07-04T00:12:16+00:00"
+      "size_bytes": 25829,
+      "modified_at": "2026-07-04T04:22:01+00:00"
     },
     "historical_live_features": {
       "path": "src/modeling/training_features_augmented.csv",
       "exists": true,
       "size_bytes": 470505,
-      "modified_at": "2026-07-04T00:11:37+00:00"
+      "modified_at": "2026-07-04T04:21:19+00:00"
     },
     "live_result_features": {
       "path": "src/modeling/training_features_live_result.csv",
       "exists": true,
       "size_bytes": 7679,
-      "modified_at": "2026-07-04T00:11:37+00:00"
+      "modified_at": "2026-07-04T04:21:19+00:00"
     }
   },
   "storage": {
@@ -73,7 +73,7 @@
         "name": "placeholder_teams_only_expected",
         "passed": true,
         "severity": "warning",
-        "detail": "18 placeholder team references found."
+        "detail": "16 placeholder team references found."
       }
     ],
     "historical_live_features": [
