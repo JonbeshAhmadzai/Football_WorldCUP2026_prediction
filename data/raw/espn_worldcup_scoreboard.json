@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T15:46:19+00:00",
+  "fetched_at": "2026-07-07T18:07:02+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -10895,7 +10895,7 @@
                     "order": 1,
                     "homeAway": "away",
                     "winner": false,
-                    "form": "WDWDL",
+                    "form": "LWDWD",
                     "score": "1",
                     "records": [
                       {
@@ -31608,7 +31608,7 @@
                     "homeAway": "away",
                     "winner": true,
                     "advance": true,
-                    "form": "WDWDL",
+                    "form": "LWDWD",
                     "score": "3",
                     "records": [
                       {
@@ -51138,7 +51138,7 @@
                     "order": 0,
                     "homeAway": "home",
                     "winner": false,
-                    "form": "WDWDL",
+                    "form": "LWDWD",
                     "score": "1",
                     "records": [
                       {
@@ -59233,20 +59233,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -60391,20 +60377,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760489",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -62013,20 +61985,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -63487,6 +63445,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760491",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -65823,20 +65795,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760494",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -68365,7 +68323,7 @@
                     "homeAway": "away",
                     "winner": true,
                     "advance": true,
-                    "form": "WDWDL",
+                    "form": "LWDWD",
                     "score": "1",
                     "shootoutScore": 4,
                     "team": {
@@ -73148,20 +73106,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -74932,6 +74876,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -75766,20 +75724,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -75804,16 +75748,17 @@
                 "timeValid": true,
                 "recent": true,
                 "status": {
-                  "clock": 0.0,
-                  "displayClock": "0'",
+                  "clock": 5400.0,
+                  "displayClock": "90'+11'",
+                  "period": 2,
                   "type": {
-                    "id": "1",
-                    "name": "STATUS_SCHEDULED",
-                    "state": "pre",
-                    "completed": false,
-                    "description": "Scheduled",
-                    "detail": "Tue, July 7th at 12:00 PM EDT",
-                    "shortDetail": "Scheduled"
+                    "id": "28",
+                    "name": "STATUS_FULL_TIME",
+                    "state": "post",
+                    "completed": true,
+                    "description": "Full Time",
+                    "detail": "FT",
+                    "shortDetail": "FT"
                   }
                 },
                 "venue": {
@@ -75824,20 +75769,6 @@
                     "country": "USA"
                   }
                 },
-                "tickets": [
-                  {
-                    "summary": "Tickets as low as $1,721",
-                    "numberAvailable": 14,
-                    "links": [
-                      {
-                        "href": "https://www.vividseats.com/world-cup-soccer-tickets-mercedes-benz-stadium-7-7-2026--sports-soccer/production/5080860?wsUser=717"
-                      },
-                      {
-                        "href": "https://www.vividseats.com/mercedesbenz-stadium-tickets/venue/14188?wsUser=717"
-                      }
-                    ]
-                  }
-                ],
                 "format": {
                   "regulation": {
                     "periods": 2
@@ -75910,9 +75841,10 @@
                     "type": "team",
                     "order": 0,
                     "homeAway": "home",
-                    "winner": false,
+                    "winner": true,
+                    "advance": true,
                     "form": "WWWWW",
-                    "score": "0",
+                    "score": "3",
                     "team": {
                       "id": "202",
                       "uid": "s:600~t:202",
@@ -76027,126 +75959,42 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "0"
+                        "displayValue": "13"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "0"
+                        "displayValue": "6"
                       },
                       {
                         "name": "goalAssists",
                         "abbreviation": "A",
-                        "displayValue": "0"
+                        "displayValue": "3"
                       },
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "0"
+                        "displayValue": "63.7"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "0"
+                        "displayValue": "16"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "0"
+                        "displayValue": "7"
                       },
                       {
                         "name": "totalGoals",
                         "abbreviation": "G",
-                        "displayValue": "0"
+                        "displayValue": "3"
                       },
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "0"
-                      }
-                    ],
-                    "leaders": [
-                      {
-                        "name": "goals",
-                        "displayName": "Goals",
-                        "shortDisplayName": "Goals",
-                        "abbreviation": "G",
-                        "leaders": [
-                          {
-                            "displayValue": "7",
-                            "value": 7.0,
-                            "athlete": {
-                              "id": "45843",
-                              "displayName": "Lionel Messi",
-                              "shortName": "L. Messi",
-                              "fullName": "Lionel Messi",
-                              "jersey": "10",
-                              "active": true,
-                              "team": {
-                                "id": "202"
-                              },
-                              "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
-                              "links": [
-                                {
-                                  "rel": [
-                                    "playercard",
-                                    "desktop",
-                                    "athlete"
-                                  ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi",
-                                  "isHidden": false
-                                }
-                              ],
-                              "position": {
-                                "abbreviation": "F"
-                              }
-                            },
-                            "team": {
-                              "id": "202"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "name": "goalsLeaders",
-                        "displayName": "Goals",
-                        "shortDisplayName": "Goals",
-                        "abbreviation": "G",
-                        "leaders": [
-                          {
-                            "displayValue": "7",
-                            "value": 7.0,
-                            "athlete": {
-                              "id": "45843",
-                              "displayName": "Lionel Messi",
-                              "shortName": "L. Messi",
-                              "fullName": "Lionel Messi",
-                              "jersey": "10",
-                              "active": true,
-                              "team": {
-                                "id": "202"
-                              },
-                              "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
-                              "links": [
-                                {
-                                  "rel": [
-                                    "playercard",
-                                    "desktop",
-                                    "athlete"
-                                  ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi",
-                                  "isHidden": false
-                                }
-                              ],
-                              "position": {
-                                "abbreviation": "F"
-                              }
-                            },
-                            "team": {
-                              "id": "202"
-                            }
-                          }
-                        ]
+                        "displayValue": "19"
                       }
                     ]
                   },
@@ -76157,8 +76005,9 @@
                     "order": 1,
                     "homeAway": "away",
                     "winner": false,
-                    "form": "WDWDL",
-                    "score": "0",
+                    "advance": false,
+                    "form": "LWDWD",
+                    "score": "2",
                     "team": {
                       "id": "2620",
                       "uid": "s:600~t:2620",
@@ -76273,385 +76122,430 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "0"
+                        "displayValue": "11"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "0"
+                        "displayValue": "1"
                       },
                       {
                         "name": "goalAssists",
                         "abbreviation": "A",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "0"
+                        "displayValue": "36.3"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "0"
+                        "displayValue": "4"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "totalGoals",
                         "abbreviation": "G",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "0"
-                      }
-                    ],
-                    "leaders": [
-                      {
-                        "name": "goals",
-                        "displayName": "Goals",
-                        "shortDisplayName": "Goals",
-                        "abbreviation": "G",
-                        "leaders": [
-                          {
-                            "displayValue": "2",
-                            "value": 2.0,
-                            "athlete": {
-                              "id": "299365",
-                              "displayName": "Emam Ashour",
-                              "shortName": "E. Ashour",
-                              "fullName": "Emam Ashour",
-                              "jersey": "8",
-                              "active": true,
-                              "team": {
-                                "id": "2620"
-                              },
-                              "links": [
-                                {
-                                  "rel": [
-                                    "playercard",
-                                    "desktop",
-                                    "athlete"
-                                  ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/299365/emam-ashour",
-                                  "isHidden": false
-                                }
-                              ],
-                              "position": {
-                                "abbreviation": "M"
-                              }
-                            },
-                            "team": {
-                              "id": "2620"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "name": "goalsLeaders",
-                        "displayName": "Goals",
-                        "shortDisplayName": "Goals",
-                        "abbreviation": "G",
-                        "leaders": [
-                          {
-                            "displayValue": "2",
-                            "value": 2.0,
-                            "athlete": {
-                              "id": "299365",
-                              "displayName": "Emam Ashour",
-                              "shortName": "E. Ashour",
-                              "fullName": "Emam Ashour",
-                              "jersey": "8",
-                              "active": true,
-                              "team": {
-                                "id": "2620"
-                              },
-                              "links": [
-                                {
-                                  "rel": [
-                                    "playercard",
-                                    "desktop",
-                                    "athlete"
-                                  ],
-                                  "href": "https://www.espn.com/soccer/player/_/id/299365/emam-ashour",
-                                  "isHidden": false
-                                }
-                              ],
-                              "position": {
-                                "abbreviation": "M"
-                              }
-                            },
-                            "team": {
-                              "id": "2620"
-                            }
-                          }
-                        ]
+                        "displayValue": "5"
                       }
                     ]
                   }
                 ],
-                "details": [],
-                "odds": [
+                "details": [
                   {
-                    "overUnder": 2.5,
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "game",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902",
-                      "text": "Game",
-                      "shortText": "Game",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "isHidden": false
+                    "type": {
+                      "id": "137",
+                      "text": "Goal - Header"
                     },
-                    "provider": {
-                      "id": "100",
-                      "name": "DraftKings",
-                      "priority": 1,
-                      "displayName": "DraftKings",
-                      "logos": [
-                        {
-                          "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                          "rel": [
-                            "light"
-                          ]
+                    "clock": {
+                      "value": 843.0,
+                      "displayValue": "15'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "265417",
+                        "displayName": "Yasser Ibrahim",
+                        "shortName": "Y. Ibrahim",
+                        "fullName": "Yasser Ibrahim",
+                        "jersey": "2",
+                        "team": {
+                          "id": "2620"
                         },
-                        {
-                          "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                          "rel": [
-                            "dark"
-                          ]
-                        }
-                      ]
-                    },
-                    "drawOdds": {
-                      "moneyLine": 390,
-                      "link": {
-                        "language": "en-US",
-                        "rel": [
-                          "draw",
-                          "desktop",
-                          "bets",
-                          "draftkings"
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/265417/yasser-ibrahim",
+                            "isHidden": false
+                          }
                         ],
-                        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0ML85377491_2",
-                        "text": "Draw Bet",
-                        "shortText": "Draw Bet",
-                        "isExternal": true,
-                        "isPremium": false,
-                        "isHidden": false
+                        "position": "CD-R"
                       }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
                     },
-                    "total": {
-                      "displayName": "Total",
-                      "shortDisplayName": "Total",
-                      "over": {
-                        "open": {
-                          "line": "o2.5",
-                          "odds": "-105"
+                    "clock": {
+                      "value": 4006.0,
+                      "displayValue": "67'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "378495",
+                        "displayName": "Mostafa Zico",
+                        "shortName": "M. Zico",
+                        "fullName": "Mostafa Zico",
+                        "jersey": "11",
+                        "team": {
+                          "id": "2620"
                         },
-                        "close": {
-                          "line": "o2.5",
-                          "odds": "+100",
-                          "link": {
+                        "links": [
+                          {
                             "rel": [
-                              "over",
-                              "bets"
+                              "playercard",
+                              "desktop",
+                              "athlete"
                             ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0OU85377503O250_1",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "over",
-                                "betType": "straight",
-                                "betDetails": "Over:2.5"
-                              }
-                            }
+                            "href": "https://www.espn.com/soccer/player/_/id/378495/mostafa-zico",
+                            "isHidden": false
                           }
-                        }
-                      },
-                      "under": {
-                        "open": {
-                          "line": "u2.5",
-                          "odds": "-120"
-                        },
-                        "close": {
-                          "line": "u2.5",
-                          "odds": "-125",
-                          "link": {
-                            "rel": [
-                              "under",
-                              "bets"
-                            ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0OU85377503U250_3",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "under",
-                                "betType": "straight",
-                                "betDetails": "Under:2.5"
-                              }
-                            }
-                          }
-                        }
+                        ],
+                        "position": "CF-L"
                       }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "137",
+                      "text": "Goal - Header"
                     },
-                    "pointSpread": {
-                      "displayName": "Spread",
-                      "shortDisplayName": "Spread",
-                      "home": {
-                        "open": {
-                          "line": "-1.5",
-                          "odds": "+110"
+                    "clock": {
+                      "value": 4720.0,
+                      "displayValue": "79'"
+                    },
+                    "team": {
+                      "id": "202"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "96970",
+                        "displayName": "Cristian Romero",
+                        "shortName": "C. Romero",
+                        "fullName": "Cristian Romero",
+                        "jersey": "13",
+                        "team": {
+                          "id": "202"
                         },
-                        "close": {
-                          "line": "-1.5",
-                          "odds": "+100",
-                          "link": {
+                        "links": [
+                          {
                             "rel": [
-                              "homeSpread",
-                              "bets"
+                              "playercard",
+                              "desktop",
+                              "athlete"
                             ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0HC85377508N150_1",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "home",
-                                "betType": "straight",
-                                "betDetails": "Spread:ARG-1.5"
-                              }
-                            }
+                            "href": "https://www.espn.com/soccer/player/_/id/96970/cristian-romero",
+                            "isHidden": false
                           }
-                        }
-                      },
-                      "away": {
-                        "open": {
-                          "line": "+1.5",
-                          "odds": "-140"
-                        },
-                        "close": {
-                          "line": "+1.5",
-                          "odds": "-125",
-                          "link": {
-                            "rel": [
-                              "awaySpread",
-                              "bets"
-                            ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0HC85377508P150_3",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "away",
-                                "betType": "straight",
-                                "betDetails": "Spread:EGY+1.5"
-                              }
-                            }
-                          }
-                        }
+                        ],
+                        "position": "CD-R"
                       }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
                     },
-                    "moneyline": {
-                      "displayName": "Moneyline",
-                      "shortDisplayName": "ML",
-                      "home": {
-                        "open": {
-                          "odds": "-300"
+                    "clock": {
+                      "value": 4979.0,
+                      "displayValue": "83'"
+                    },
+                    "team": {
+                      "id": "202"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "45843",
+                        "displayName": "Lionel Messi",
+                        "shortName": "L. Messi",
+                        "fullName": "Lionel Messi",
+                        "jersey": "10",
+                        "team": {
+                          "id": "202"
                         },
-                        "close": {
-                          "odds": "-310",
-                          "link": {
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
+                        "links": [
+                          {
                             "rel": [
-                              "home",
-                              "bets"
+                              "playercard",
+                              "desktop",
+                              "athlete"
                             ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0ML85377491_1",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "home",
-                                "betType": "straight"
-                              }
-                            }
+                            "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi",
+                            "isHidden": false
                           }
-                        }
-                      },
-                      "away": {
-                        "open": {
-                          "odds": "+1000"
-                        },
-                        "close": {
-                          "odds": "+1000",
-                          "link": {
-                            "rel": [
-                              "away",
-                              "bets"
-                            ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0ML85377491_3",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "away",
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "draw": {
-                        "open": {
-                          "odds": "+360"
-                        },
-                        "close": {
-                          "odds": "+390",
-                          "link": {
-                            "rel": [
-                              "draw",
-                              "bets"
-                            ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34353902%3Foutcomes%3D0ML85377491_2",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "fifa.world",
-                                "sport": "soccer",
-                                "gameId": 760509,
-                                "betSide": "draw",
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
+                        ],
+                        "position": "CF-R"
                       }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "137",
+                      "text": "Goal - Header"
                     },
-                    "details": "ARG -310"
+                    "clock": {
+                      "value": 5400.0,
+                      "displayValue": "90'+2'"
+                    },
+                    "team": {
+                      "id": "202"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "285450",
+                        "displayName": "Enzo Fern\u00e1ndez",
+                        "shortName": "E. Fern\u00e1ndez",
+                        "fullName": "Enzo Fern\u00e1ndez",
+                        "jersey": "24",
+                        "team": {
+                          "id": "202"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/285450/enzo-fernandez",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "LM"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 5400.0,
+                      "displayValue": "90'+3'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "308915",
+                        "displayName": "Mostafa Shoubir",
+                        "shortName": "M. Shoubir",
+                        "fullName": "Mostafa Shoubir",
+                        "jersey": "23",
+                        "team": {
+                          "id": "2620"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/308915/mostafa-shoubir",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "G"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 5400.0,
+                      "displayValue": "90'+4'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "285057",
+                        "displayName": "Hamdy Fathy",
+                        "shortName": "H. Fathy",
+                        "fullName": "Hamdy Fathy",
+                        "jersey": "14",
+                        "team": {
+                          "id": "2620"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/285057/hamdy-fathy",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "SUB"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 5400.0,
+                      "displayValue": "90'+8'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "357112",
+                        "displayName": "Marawan Attia",
+                        "shortName": "M. Attia",
+                        "fullName": "Marawan Attia",
+                        "jersey": "19",
+                        "team": {
+                          "id": "2620"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/357112/marawan-attia",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "CM-L"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 5400.0,
+                      "displayValue": "90'+9'"
+                    },
+                    "team": {
+                      "id": "2620"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false
                   }
+                ],
+                "headlines": [
+                  {
+                    "description": "Argentina remarkably beat Egypt 3-2 with a stoppage-time winner after turning around a two-goal deficit in the World Cup round of 16.",
+                    "type": "Recap",
+                    "shortLinkText": "Argentina overturn two-goal deficit to beat Egypt late at World Cup"
+                  }
+                ],
+                "odds": [
+                  null
                 ],
                 "wasSuspended": false,
                 "playByPlayAvailable": true,
@@ -76659,16 +76553,17 @@
               }
             ],
             "status": {
-              "clock": 0.0,
-              "displayClock": "0'",
+              "clock": 5400.0,
+              "displayClock": "90'+11'",
+              "period": 2,
               "type": {
-                "id": "1",
-                "name": "STATUS_SCHEDULED",
-                "state": "pre",
-                "completed": false,
-                "description": "Scheduled",
-                "detail": "Tue, July 7th at 12:00 PM EDT",
-                "shortDetail": "Scheduled"
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
               }
             },
             "venue": {
@@ -76685,6 +76580,20 @@
                 "href": "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina",
                 "text": "Summary",
                 "shortText": "Summary",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "recap",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/report/_/gameId/760509",
+                "text": "Report",
+                "shortText": "Report",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -76748,8 +76657,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $402",
-                    "numberAvailable": 1294,
+                    "summary": "Tickets as low as $431",
+                    "numberAvailable": 346,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-bc-place-stadium-7-7-2026--sports-soccer/production/5080861?wsUser=717"
@@ -77244,10 +77153,25 @@
                     "provider": {
                       "id": "100",
                       "name": "DraftKings",
-                      "priority": 1
+                      "priority": 1,
+                      "displayName": "DraftKings",
+                      "logos": [
+                        {
+                          "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                          "rel": [
+                            "light"
+                          ]
+                        },
+                        {
+                          "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                          "rel": [
+                            "dark"
+                          ]
+                        }
+                      ]
                     },
                     "drawOdds": {
-                      "moneyLine": 210,
+                      "moneyLine": 205,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -77274,7 +77198,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "+125",
+                          "odds": "+130",
                           "link": {
                             "rel": [
                               "over",
@@ -77302,7 +77226,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "-155",
+                          "odds": "-160",
                           "link": {
                             "rel": [
                               "under",
@@ -77334,7 +77258,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "-155",
+                          "odds": "-160",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -77362,7 +77286,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "+120",
+                          "odds": "+125",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -77417,7 +77341,7 @@
                           "odds": "+125"
                         },
                         "close": {
-                          "odds": "+125",
+                          "odds": "+130",
                           "link": {
                             "rel": [
                               "away",
@@ -77442,7 +77366,7 @@
                           "odds": "+225"
                         },
                         "close": {
-                          "odds": "+210",
+                          "odds": "+205",
                           "link": {
                             "rel": [
                               "draw",
@@ -77463,7 +77387,7 @@
                         }
                       }
                     },
-                    "details": "COL +125"
+                    "details": "COL +130"
                   }
                 ],
                 "wasSuspended": false,
@@ -77575,8 +77499,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $938",
-                    "numberAvailable": 3191,
+                    "summary": "Tickets as low as $954",
+                    "numberAvailable": 1778,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-gillette-stadium-7-9-2026--sports-soccer/production/5080863?wsUser=717"
@@ -78404,8 +78328,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,120",
-                    "numberAvailable": 3070,
+                    "summary": "Tickets as low as $1,108",
+                    "numberAvailable": 1776,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-sofi-stadium-7-10-2026--sports-soccer/production/5080864?wsUser=717"
@@ -79171,6 +79095,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -79217,8 +79155,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,673",
-                    "numberAvailable": 3097,
+                    "summary": "Tickets as low as $1,721",
+                    "numberAvailable": 2842,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-11-2026--sports-soccer/production/5080865?wsUser=717"
@@ -79984,6 +79922,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -80425,20 +80377,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760514",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
