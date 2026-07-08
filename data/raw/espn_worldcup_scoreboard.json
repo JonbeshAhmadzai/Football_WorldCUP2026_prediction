@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T12:06:22+00:00",
+  "fetched_at": "2026-07-08T14:57:48+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -60394,20 +60394,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -62010,6 +61996,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760490",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -71744,20 +71744,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -75808,20 +75794,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -77901,8 +77873,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,005",
-                    "numberAvailable": 2047,
+                    "summary": "Tickets as low as $1,049",
+                    "numberAvailable": 1913,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-gillette-stadium-7-9-2026--sports-soccer/production/5080863?wsUser=717"
@@ -78745,8 +78717,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,277",
-                    "numberAvailable": 2565,
+                    "summary": "Tickets as low as $1,151",
+                    "numberAvailable": 2597,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-sofi-stadium-7-10-2026--sports-soccer/production/5080864?wsUser=717"
@@ -79331,7 +79303,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "-170",
+                          "odds": "-165",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -79359,7 +79331,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "+135",
+                          "odds": "+130",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -79389,7 +79361,7 @@
                           "odds": "-160"
                         },
                         "close": {
-                          "odds": "-165",
+                          "odds": "-160",
                           "link": {
                             "rel": [
                               "home",
@@ -79414,7 +79386,7 @@
                           "odds": "+450"
                         },
                         "close": {
-                          "odds": "+450",
+                          "odds": "+425",
                           "link": {
                             "rel": [
                               "away",
@@ -79460,7 +79432,7 @@
                         }
                       }
                     },
-                    "details": "ESP -165"
+                    "details": "ESP -160"
                   }
                 ],
                 "wasSuspended": false,
@@ -79572,8 +79544,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,823",
-                    "numberAvailable": 2322,
+                    "summary": "Tickets as low as $1,847",
+                    "numberAvailable": 2197,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-11-2026--sports-soccer/production/5080865?wsUser=717"
@@ -80399,8 +80371,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,579",
-                    "numberAvailable": 3030,
+                    "summary": "Tickets as low as $1,513",
+                    "numberAvailable": 3040,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-geha-field-at-arrowhead-stadium-7-11-2026--sports-soccer/production/5080868?wsUser=717"
@@ -80927,7 +80899,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "+125",
+                          "odds": "+120",
                           "link": {
                             "rel": [
                               "over",
@@ -80955,7 +80927,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "-155",
+                          "odds": "-150",
                           "link": {
                             "rel": [
                               "under",
@@ -81383,6 +81355,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760514",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
