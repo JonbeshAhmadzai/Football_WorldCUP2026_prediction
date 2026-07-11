@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T11:32:13+00:00",
+  "fetched_at": "2026-07-11T13:42:13+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -59224,20 +59224,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -63481,20 +63467,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -65106,6 +65078,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760493",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -69903,20 +69889,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -70704,20 +70676,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760501",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -71732,6 +71690,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -72434,6 +72406,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -73133,20 +73119,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760504",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -74917,20 +74889,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760506",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -77801,20 +77759,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -79381,8 +79325,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,876",
-                    "numberAvailable": 1292,
+                    "summary": "Tickets as low as $1,933",
+                    "numberAvailable": 1092,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-11-2026--sports-soccer/production/5080865?wsUser=717"
@@ -79922,7 +79866,7 @@
                         },
                         "close": {
                           "line": "o2.5",
-                          "odds": "-145",
+                          "odds": "-150",
                           "link": {
                             "rel": [
                               "over",
@@ -79950,7 +79894,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "+115",
+                          "odds": "+120",
                           "link": {
                             "rel": [
                               "under",
@@ -80223,8 +80167,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $911",
-                    "numberAvailable": 2182,
+                    "summary": "Tickets as low as $925",
+                    "numberAvailable": 2597,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-geha-field-at-arrowhead-stadium-7-11-2026--sports-soccer/production/5080868?wsUser=717"
@@ -80724,7 +80668,7 @@
                       "priority": 1
                     },
                     "drawOdds": {
-                      "moneyLine": 255,
+                      "moneyLine": 260,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -80811,7 +80755,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "-150",
+                          "odds": "-155",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -80839,7 +80783,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "+120",
+                          "odds": "+125",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -80869,7 +80813,7 @@
                           "odds": "-140"
                         },
                         "close": {
-                          "odds": "-145",
+                          "odds": "-150",
                           "link": {
                             "rel": [
                               "home",
@@ -80894,7 +80838,7 @@
                           "odds": "+400"
                         },
                         "close": {
-                          "odds": "+450",
+                          "odds": "+475",
                           "link": {
                             "rel": [
                               "away",
@@ -80919,7 +80863,7 @@
                           "odds": "+260"
                         },
                         "close": {
-                          "odds": "+255",
+                          "odds": "+260",
                           "link": {
                             "rel": [
                               "draw",
@@ -80940,7 +80884,7 @@
                         }
                       }
                     },
-                    "details": "ARG -145"
+                    "details": "ARG -150"
                   }
                 ],
                 "wasSuspended": false,
@@ -80992,6 +80936,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -81038,8 +80996,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,601",
-                    "numberAvailable": 4424,
+                    "summary": "Tickets as low as $1,538",
+                    "numberAvailable": 4600,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-att-stadium-7-14-2026--sports-soccer/production/5080869?wsUser=717"
@@ -81592,7 +81550,7 @@
                         },
                         "close": {
                           "line": "u2.5",
-                          "odds": "-110",
+                          "odds": "-115",
                           "link": {
                             "rel": [
                               "under",
@@ -81624,7 +81582,7 @@
                         },
                         "close": {
                           "line": "-0.5",
-                          "odds": "+130",
+                          "odds": "+135",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -81652,7 +81610,7 @@
                         },
                         "close": {
                           "line": "+0.5",
-                          "odds": "-165",
+                          "odds": "-170",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -81802,20 +81760,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760514",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -82034,20 +81978,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760515",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
