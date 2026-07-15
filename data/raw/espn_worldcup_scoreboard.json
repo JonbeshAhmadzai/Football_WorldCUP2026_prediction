@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T19:22:50+00:00",
+  "fetched_at": "2026-07-15T20:36:23+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -58341,20 +58341,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -61999,20 +61985,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -64233,6 +64205,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760495",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -67332,20 +67318,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -69887,20 +69859,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -70688,20 +70646,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760501",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -71716,20 +71660,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -72429,20 +72359,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760503",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -75780,20 +75696,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -76734,20 +76636,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760509",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -80982,6 +80870,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -81766,17 +81668,17 @@
                 "timeValid": true,
                 "recent": true,
                 "status": {
-                  "clock": 1380.0,
-                  "displayClock": "23'",
-                  "period": 1,
+                  "clock": 4500.0,
+                  "displayClock": "75'",
+                  "period": 2,
                   "type": {
-                    "id": "25",
-                    "name": "STATUS_FIRST_HALF",
+                    "id": "26",
+                    "name": "STATUS_SECOND_HALF",
                     "state": "in",
                     "completed": false,
-                    "description": "First Half",
-                    "detail": "23'",
-                    "shortDetail": "23'"
+                    "description": "Second Half",
+                    "detail": "75'",
+                    "shortDetail": "75'"
                   }
                 },
                 "venue": {
@@ -81875,7 +81777,7 @@
                     "homeAway": "home",
                     "winner": false,
                     "form": "WWWWD",
-                    "score": "0",
+                    "score": "1",
                     "team": {
                       "id": "448",
                       "uid": "s:600~t:448",
@@ -81990,42 +81892,42 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "4"
+                        "displayValue": "9"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "1"
+                        "displayValue": "2"
                       },
                       {
                         "name": "goalAssists",
                         "abbreviation": "A",
-                        "displayValue": "0"
+                        "displayValue": "1"
                       },
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "43.2"
+                        "displayValue": "38.5"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "0"
+                        "displayValue": "4"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "totalGoals",
                         "abbreviation": "G",
-                        "displayValue": "0"
+                        "displayValue": "1"
                       },
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "0"
+                        "displayValue": "4"
                       }
                     ]
                   },
@@ -82152,12 +82054,12 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "5"
+                        "displayValue": "14"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "0"
+                        "displayValue": "5"
                       },
                       {
                         "name": "goalAssists",
@@ -82167,17 +82069,17 @@
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "56.8"
+                        "displayValue": "61.5"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "0"
+                        "displayValue": "6"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "totalGoals",
@@ -82187,12 +82089,190 @@
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "0"
+                        "displayValue": "7"
                       }
                     ]
                   }
                 ],
-                "details": [],
+                "details": [
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 2209.0,
+                      "displayValue": "37'"
+                    },
+                    "team": {
+                      "id": "448"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "238472",
+                        "displayName": "Elliot Anderson",
+                        "shortName": "E. Anderson",
+                        "fullName": "Elliot Anderson",
+                        "jersey": "8",
+                        "team": {
+                          "id": "448"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/238472/elliot-anderson",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "LM"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 2473.0,
+                      "displayValue": "42'"
+                    },
+                    "team": {
+                      "id": "202"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "233937",
+                        "displayName": "Lisandro Mart\u00ednez",
+                        "shortName": "L. Mart\u00ednez",
+                        "fullName": "Lisandro Mart\u00ednez",
+                        "jersey": "6",
+                        "team": {
+                          "id": "202"
+                        },
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233937.png",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/233937/lisandro-martinez",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "CD-L"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "94",
+                      "text": "Yellow Card"
+                    },
+                    "clock": {
+                      "value": 3046.0,
+                      "displayValue": "51'"
+                    },
+                    "team": {
+                      "id": "202"
+                    },
+                    "scoreValue": 0,
+                    "scoringPlay": false,
+                    "redCard": false,
+                    "yellowCard": true,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "96970",
+                        "displayName": "Cristian Romero",
+                        "shortName": "C. Romero",
+                        "fullName": "Cristian Romero",
+                        "jersey": "13",
+                        "team": {
+                          "id": "202"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/96970/cristian-romero",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "CD-R"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "173",
+                      "text": "Goal - Volley"
+                    },
+                    "clock": {
+                      "value": 3264.0,
+                      "displayValue": "55'"
+                    },
+                    "team": {
+                      "id": "448"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "268782",
+                        "displayName": "Anthony Gordon",
+                        "shortName": "A. Gordon",
+                        "fullName": "Anthony Gordon",
+                        "jersey": "18",
+                        "team": {
+                          "id": "448"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/268782/anthony-gordon",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "AM-L"
+                      }
+                    ]
+                  }
+                ],
                 "odds": [
                   {
                     "overUnder": 2.5,
@@ -82262,7 +82342,7 @@
                         },
                         "current": {
                           "line": "o1.5",
-                          "odds": "-147",
+                          "odds": "-149",
                           "link": {
                             "rel": [
                               "over",
@@ -82294,7 +82374,7 @@
                         },
                         "current": {
                           "line": "u1.5",
-                          "odds": "+124",
+                          "odds": "+125",
                           "link": {
                             "rel": [
                               "under",
@@ -82330,7 +82410,7 @@
                         },
                         "current": {
                           "line": "-0.5",
-                          "odds": "+155",
+                          "odds": "-265",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -82362,7 +82442,7 @@
                         },
                         "current": {
                           "line": "+0.5",
-                          "odds": "-195",
+                          "odds": "+205",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -82395,7 +82475,7 @@
                           "odds": "+170"
                         },
                         "current": {
-                          "odds": "+160",
+                          "odds": "-235",
                           "link": {
                             "rel": [
                               "home",
@@ -82423,7 +82503,7 @@
                           "odds": "+205"
                         },
                         "current": {
-                          "odds": "+220",
+                          "odds": "+1300",
                           "link": {
                             "rel": [
                               "away",
@@ -82451,7 +82531,7 @@
                           "odds": "+180"
                         },
                         "current": {
-                          "odds": "+175",
+                          "odds": "+250",
                           "link": {
                             "rel": [
                               "draw",
@@ -82481,17 +82561,17 @@
               }
             ],
             "status": {
-              "clock": 1380.0,
-              "displayClock": "23'",
-              "period": 1,
+              "clock": 4500.0,
+              "displayClock": "75'",
+              "period": 2,
               "type": {
-                "id": "25",
-                "name": "STATUS_FIRST_HALF",
+                "id": "26",
+                "name": "STATUS_SECOND_HALF",
                 "state": "in",
                 "completed": false,
-                "description": "First Half",
-                "detail": "23'",
-                "shortDetail": "23'"
+                "description": "Second Half",
+                "detail": "75'",
+                "shortDetail": "75'"
               }
             },
             "venue": {
@@ -82525,6 +82605,18 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "highlights",
+                  "desktop"
+                ],
+                "href": "https://www.espn.com/soccer/video/_/gameId/760515",
+                "text": "Highlights",
+                "shortText": "Highlights",
+                "isExternal": false,
+                "isPremium": false
               },
               {
                 "language": "en-US",
@@ -82585,8 +82677,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,300",
-                    "numberAvailable": 1783,
+                    "summary": "Tickets as low as $1,351",
+                    "numberAvailable": 1716,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-18-2026--sports-soccer/production/5080873?wsUser=717"
