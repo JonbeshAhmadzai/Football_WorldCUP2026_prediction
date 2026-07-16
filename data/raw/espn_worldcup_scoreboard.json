@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T23:32:24+00:00",
+  "fetched_at": "2026-07-16T03:19:25+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -58341,6 +58341,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -60377,6 +60391,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760489",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -63459,20 +63487,6 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760491",
                 "text": "Statistics",
                 "shortText": "Statistics",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -68048,6 +68062,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -69019,6 +69047,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760499",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -75752,6 +75794,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -80940,20 +80996,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -81736,7 +81778,7 @@
                 "startDate": "2026-07-15T19:00Z",
                 "attendance": 68239,
                 "timeValid": true,
-                "recent": true,
+                "recent": false,
                 "status": {
                   "clock": 5400.0,
                   "displayClock": "90'+12'",
@@ -81964,7 +82006,7 @@
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "35.7"
+                        "displayValue": "35.8"
                       },
                       {
                         "name": "shotAssists",
@@ -82127,7 +82169,7 @@
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "64.3"
+                        "displayValue": "64.2"
                       },
                       {
                         "name": "shotAssists",
@@ -82288,8 +82330,8 @@
                   },
                   {
                     "type": {
-                      "id": "70",
-                      "text": "Goal"
+                      "id": "173",
+                      "text": "Goal - Volley"
                     },
                     "clock": {
                       "value": 3264.0,
@@ -82609,8 +82651,8 @@
                 },
                 "tickets": [
                   {
-                    "summary": "Tickets as low as $1,033",
-                    "numberAvailable": 1845,
+                    "summary": "Tickets as low as $681",
+                    "numberAvailable": 2182,
                     "links": [
                       {
                         "href": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-18-2026--sports-soccer/production/5080873?wsUser=717"
@@ -83123,7 +83165,7 @@
                       ]
                     },
                     "drawOdds": {
-                      "moneyLine": 265,
+                      "moneyLine": 275,
                       "link": {
                         "language": "en-US",
                         "rel": [
@@ -83150,7 +83192,7 @@
                         },
                         "close": {
                           "line": "o3.5",
-                          "odds": "+135",
+                          "odds": "+125",
                           "link": {
                             "rel": [
                               "over",
@@ -83178,7 +83220,7 @@
                         },
                         "close": {
                           "line": "u3.5",
-                          "odds": "-165",
+                          "odds": "-155",
                           "link": {
                             "rel": [
                               "under",
@@ -83268,7 +83310,7 @@
                           "odds": "+110"
                         },
                         "close": {
-                          "odds": "-105",
+                          "odds": "+100",
                           "link": {
                             "rel": [
                               "home",
@@ -83318,7 +83360,7 @@
                           "odds": "+235"
                         },
                         "close": {
-                          "odds": "+265",
+                          "odds": "+275",
                           "link": {
                             "rel": [
                               "draw",
@@ -83339,7 +83381,7 @@
                         }
                       }
                     },
-                    "details": "FRA -105"
+                    "details": "FRA +100"
                   }
                 ],
                 "wasSuspended": false,
