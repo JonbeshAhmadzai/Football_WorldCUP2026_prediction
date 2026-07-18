@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T21:27:07+00:00",
+  "fetched_at": "2026-07-18T22:27:00+00:00",
   "provider": "espn",
   "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
   "date_range": "20260611-20260719",
@@ -61297,6 +61297,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -65087,6 +65101,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760493",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -69887,6 +69915,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -70674,6 +70716,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760501",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -74904,6 +74960,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -75735,6 +75805,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760507",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -76678,6 +76762,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760509",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -78415,20 +78513,6 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bracket",
-                  "desktop",
-                  "event"
-                ],
-                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
-                "text": "Bracket",
-                "shortText": "Bracket",
-                "isExternal": false,
-                "isPremium": false,
-                "isHidden": false
               }
             ]
           },
@@ -79260,6 +79344,20 @@
                 "href": "https://www.espn.com/soccer/matchstats/_/gameId/760511",
                 "text": "Statistics",
                 "shortText": "Statistics",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
@@ -81658,6 +81756,20 @@
                 "isExternal": false,
                 "isPremium": false,
                 "isHidden": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bracket",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+                "text": "Bracket",
+                "shortText": "Bracket",
+                "isExternal": false,
+                "isPremium": false,
+                "isHidden": false
               }
             ]
           },
@@ -82531,17 +82643,17 @@
                 "timeValid": true,
                 "recent": true,
                 "status": {
-                  "clock": 1620.0,
-                  "displayClock": "27'",
-                  "period": 1,
+                  "clock": 3780.0,
+                  "displayClock": "63'",
+                  "period": 2,
                   "type": {
-                    "id": "25",
-                    "name": "STATUS_FIRST_HALF",
+                    "id": "26",
+                    "name": "STATUS_SECOND_HALF",
                     "state": "in",
                     "completed": false,
-                    "description": "First Half",
-                    "detail": "27'",
-                    "shortDetail": "27'"
+                    "description": "Second Half",
+                    "detail": "63'",
+                    "shortDetail": "63'"
                   }
                 },
                 "venue": {
@@ -82639,7 +82751,7 @@
                     "homeAway": "home",
                     "winner": false,
                     "form": "LWWWW",
-                    "score": "0",
+                    "score": "2",
                     "team": {
                       "id": "478",
                       "uid": "s:600~t:478",
@@ -82754,42 +82866,42 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "3"
+                        "displayValue": "7"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "1"
+                        "displayValue": "2"
                       },
                       {
                         "name": "goalAssists",
                         "abbreviation": "A",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "53.3"
+                        "displayValue": "42.6"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "2"
+                        "displayValue": "6"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "1"
+                        "displayValue": "4"
                       },
                       {
                         "name": "totalGoals",
                         "abbreviation": "G",
-                        "displayValue": "0"
+                        "displayValue": "2"
                       },
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "4"
+                        "displayValue": "9"
                       }
                     ]
                   },
@@ -82801,7 +82913,7 @@
                     "homeAway": "away",
                     "winner": false,
                     "form": "LWWWW",
-                    "score": "2",
+                    "score": "4",
                     "team": {
                       "id": "448",
                       "uid": "s:600~t:448",
@@ -82916,42 +83028,42 @@
                       {
                         "name": "foulsCommitted",
                         "abbreviation": "FC",
-                        "displayValue": "2"
+                        "displayValue": "7"
                       },
                       {
                         "name": "wonCorners",
                         "abbreviation": "CW",
-                        "displayValue": "2"
+                        "displayValue": "4"
                       },
                       {
                         "name": "goalAssists",
                         "abbreviation": "A",
-                        "displayValue": "1"
+                        "displayValue": "3"
                       },
                       {
                         "name": "possessionPct",
                         "abbreviation": "PP",
-                        "displayValue": "46.7"
+                        "displayValue": "57.4"
                       },
                       {
                         "name": "shotAssists",
                         "abbreviation": "SHAST",
-                        "displayValue": "4"
+                        "displayValue": "14"
                       },
                       {
                         "name": "shotsOnTarget",
                         "abbreviation": "SOG",
-                        "displayValue": "2"
+                        "displayValue": "8"
                       },
                       {
                         "name": "totalGoals",
                         "abbreviation": "G",
-                        "displayValue": "2"
+                        "displayValue": "4"
                       },
                       {
                         "name": "totalShots",
                         "abbreviation": "SHOT",
-                        "displayValue": "5"
+                        "displayValue": "14"
                       }
                     ]
                   }
@@ -83044,6 +83156,182 @@
                         "position": "CD-R"
                       }
                     ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
+                    },
+                    "clock": {
+                      "value": 2170.0,
+                      "displayValue": "37'"
+                    },
+                    "team": {
+                      "id": "448"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "280555",
+                        "displayName": "Bukayo Saka",
+                        "shortName": "B. Saka",
+                        "fullName": "Bukayo Saka",
+                        "jersey": "7",
+                        "team": {
+                          "id": "448"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/280555/bukayo-saka",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "RM"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
+                    },
+                    "clock": {
+                      "value": 2700.0,
+                      "displayValue": "45'+1'"
+                    },
+                    "team": {
+                      "id": "448"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "280555",
+                        "displayName": "Bukayo Saka",
+                        "shortName": "B. Saka",
+                        "fullName": "Bukayo Saka",
+                        "jersey": "7",
+                        "team": {
+                          "id": "448"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/280555/bukayo-saka",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "RM"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
+                    },
+                    "clock": {
+                      "value": 2850.0,
+                      "displayValue": "48'"
+                    },
+                    "team": {
+                      "id": "478"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "231388",
+                        "displayName": "Kylian Mbapp\u00e9",
+                        "shortName": "K. Mbapp\u00e9",
+                        "fullName": "Kylian Mbapp\u00e9",
+                        "jersey": "10",
+                        "team": {
+                          "id": "478"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/231388/kylian-mbappe",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "F"
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "id": "70",
+                      "text": "Goal"
+                    },
+                    "clock": {
+                      "value": 3218.0,
+                      "displayValue": "54'"
+                    },
+                    "team": {
+                      "id": "478"
+                    },
+                    "scoreValue": 1,
+                    "scoringPlay": true,
+                    "redCard": false,
+                    "yellowCard": false,
+                    "penaltyKick": false,
+                    "ownGoal": false,
+                    "shootout": false,
+                    "athletesInvolved": [
+                      {
+                        "id": "328238",
+                        "displayName": "Bradley Barcola",
+                        "shortName": "B. Barcola",
+                        "fullName": "Bradley Barcola",
+                        "jersey": "12",
+                        "team": {
+                          "id": "478"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/328238/bradley-barcola",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": "SUB"
+                      }
+                    ]
                   }
                 ],
                 "odds": [
@@ -83114,14 +83402,14 @@
                           "odds": "+115"
                         },
                         "current": {
-                          "line": "o4.5",
-                          "odds": "-133",
+                          "line": "o7.5",
+                          "odds": "-136",
                           "link": {
                             "rel": [
                               "over",
                               "bets"
                             ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400513%3Foutcomes%3D0OU85514756O450_1",
+                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400513%3Foutcomes%3D0OU85514756O750_1",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -83130,7 +83418,7 @@
                                 "gameId": 760516,
                                 "betSide": "over",
                                 "betType": "straight",
-                                "betDetails": "Over:4.5"
+                                "betDetails": "Over:7.5"
                               }
                             }
                           }
@@ -83146,14 +83434,14 @@
                           "odds": "-140"
                         },
                         "current": {
-                          "line": "u4.5",
-                          "odds": "+111",
+                          "line": "u7.5",
+                          "odds": "+114",
                           "link": {
                             "rel": [
                               "under",
                               "bets"
                             ],
-                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400513%3Foutcomes%3D0OU85514756U450_3",
+                            "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34400513%3Foutcomes%3D0OU85514756U750_3",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -83162,7 +83450,7 @@
                                 "gameId": 760516,
                                 "betSide": "under",
                                 "betType": "straight",
-                                "betDetails": "Under:4.5"
+                                "betDetails": "Under:7.5"
                               }
                             }
                           }
@@ -83183,7 +83471,7 @@
                         },
                         "current": {
                           "line": "+1.5",
-                          "odds": "-170",
+                          "odds": "-155",
                           "link": {
                             "rel": [
                               "homeSpread",
@@ -83215,7 +83503,7 @@
                         },
                         "current": {
                           "line": "-1.5",
-                          "odds": "+135",
+                          "odds": "+120",
                           "link": {
                             "rel": [
                               "awaySpread",
@@ -83248,7 +83536,7 @@
                           "odds": "-145"
                         },
                         "current": {
-                          "odds": "+500",
+                          "odds": "+750",
                           "link": {
                             "rel": [
                               "home",
@@ -83276,7 +83564,7 @@
                           "odds": "+350"
                         },
                         "current": {
-                          "odds": "-225",
+                          "odds": "-290",
                           "link": {
                             "rel": [
                               "away",
@@ -83334,17 +83622,17 @@
               }
             ],
             "status": {
-              "clock": 1620.0,
-              "displayClock": "27'",
-              "period": 1,
+              "clock": 3780.0,
+              "displayClock": "63'",
+              "period": 2,
               "type": {
-                "id": "25",
-                "name": "STATUS_FIRST_HALF",
+                "id": "26",
+                "name": "STATUS_SECOND_HALF",
                 "state": "in",
                 "completed": false,
-                "description": "First Half",
-                "detail": "27'",
-                "shortDetail": "27'"
+                "description": "Second Half",
+                "detail": "63'",
+                "shortDetail": "63'"
               }
             },
             "venue": {
